@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FaSTTUBe_connectors")(type "KiCad")(uri "${KIPRJMOD}/libraries/FaSTTUBe_connectors.pretty")(options "")(descr ""))
+  (lib (name "FaSTTUBe_connectors_3dmodels")(type "KiCad")(uri "${KIPRJMOD}/libraries/FaSTTUBe_connectors_3dmodels")(options "")(descr ""))
+  (lib (name "FaSTTUBe_Power_Switches")(type "KiCad")(uri "${KIPRJMOD}/libraries/FaSTTUBe_Power_Switches.pretty")(options "")(descr ""))
+)
