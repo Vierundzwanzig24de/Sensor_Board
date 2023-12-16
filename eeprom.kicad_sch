@@ -317,7 +317,6 @@
     )
   )
 
-
   (junction (at 129.54 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 24a1b25f-362f-409e-b8b0-9d007c4afa54)
   )
@@ -505,7 +504,7 @@
     (uuid c863d926-95ed-44d3-967b-75803c8a4a50)
   )
 
-  (hierarchical_label "EEPROM_I2C[0..2]" (shape bidirectional) (at 160.02 64.77 0) (fields_autoplaced)
+  (hierarchical_label "{EEPROM_I2C}" (shape bidirectional) (at 160.02 64.77 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c591a539-5961-47c4-a688-0018fd7f2cd6)
   )

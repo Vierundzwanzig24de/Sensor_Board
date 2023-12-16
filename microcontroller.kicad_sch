@@ -530,12 +530,11 @@
     )
   )
 
+  (bus_alias "V_Sense" (members "VS_5VA" "VS_drive" ""))
+  (bus_alias "EEPROM_I2C" (members "EEPROM_SCL" "EEPROM_SDA" "EEPROM_WP"))
+  (bus_alias "USB" (members "USB_DP" "USB_DM"))
   (bus_alias "ADC_I2C" (members "ADC_SCL" "ADC_SDA"))
   (bus_alias "IN_config" (members "IN_SRD" "IN_SRCLK" "IN_RCLK" "IN_SRD_AIn"))
-  (bus_alias "EEPROM_I2C" (members "EEPROM_SCL" "EEPROM_SDA" "EEPROM_WP"))
-  (bus_alias "V_Sense" (members "VS_5VA" "VS_drive" ""))
-  (bus_alias "USB" (members "USB_DP" "USB_DM"))
-
   (junction (at 144.78 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 01422cbf-436b-4f25-9449-64a1f27e5e96)
   )

@@ -1006,9 +1006,9 @@
     (property "Sheetfile" "eeprom.kicad_sch" (at 127 177.1146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "EEPROM_I2C[0..2]" bidirectional (at 152.4 165.1 0)
+    (pin "{EEPROM_I2C}" bidirectional (at 152.4 165.1 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid cb1c91c0-5e9d-49bb-9fa2-667191263341)
+      (uuid d4072a36-d5a7-4d94-9739-f5abdee79ee9)
     )
     (instances
       (project "Sensor_Board"

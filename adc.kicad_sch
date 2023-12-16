@@ -624,7 +624,6 @@
 
   (bus_alias "A_In_config" (members "AIn_SRD" "AIn_SRCLK" "AIn_RCLK"))
   (bus_alias "" (members ))
-
   (junction (at 86.36 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 26935283-0a22-42b8-ac71-be0177ea72ce)
   )
