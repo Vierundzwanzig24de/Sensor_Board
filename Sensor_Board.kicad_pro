@@ -590,6 +590,10 @@
       {
         "netclass": "Default",
         "pattern": "+BATT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*DOut_Supply*"
       }
     ]
   },

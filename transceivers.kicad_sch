@@ -790,8 +790,8 @@
     )
   )
 
-  (bus_alias "Power_OUT" (members "Half0_OUT" "Half1_OUT" "1A_Out0" "1A_Out2" "1A_Out3" "1A_Out1" ""))
   (bus_alias "LIN" (members "LIN_TX" "LIN_RX" "LIN_EN"))
+  (bus_alias "Power_OUT" (members "Half0_OUT" "Half1_OUT" "1A_Out0" "1A_Out2" "1A_Out3" "1A_Out1" ""))
   (bus_alias "CAN" (members "CAN_TX" "CAN_RX" "CAN_STBY"))
   (bus_alias "Comm" (members "CAN_H" "CAN_L" "LIN"))
   (junction (at 166.37 99.06) (diameter 0) (color 0 0 0 0)
