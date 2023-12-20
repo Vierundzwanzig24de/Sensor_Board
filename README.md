@@ -49,3 +49,4 @@ Platine in Betrieb nehmen:
 - Umschalten USB Versorgung per Software?? (Falls keine Eingangsspannung messbar)
 - CAN schaltbare Terminierung
 - Vierundzwanzig24 Logo!!!
+- AMPSEAL um 0.8mm nach innen verschieben
