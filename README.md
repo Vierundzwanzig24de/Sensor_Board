@@ -1,14 +1,14 @@
 # Sensor Board V1
 
 ## ToDo
-~~Schaltplan finalisieren~~
-~~Footprints zuordnen~~
-~~Komponenten platzieren~~
-~~Leiterbahnen routen~~
-~~Platine bestellen~~
-Gehäuse konstruieren
-Bauteile bestellen
-Platine in Betrieb nehmen:
+~~Schaltplan finalisieren~~  
+~~Footprints zuordnen~~  
+~~Komponenten platzieren~~  
+~~Leiterbahnen routen~~  
+~~Platine bestellen~~  
+Gehäuse konstruieren  
+Bauteile bestellen  
+###Platine in Betrieb nehmen:
 1. Keine Fuses einlöten, reverse polarity testen (Q1201)
 	- Q1201 Pin 3 liegt Versorgungsspannung an
 	- V_IN LED (D1210) leuchtet
