@@ -1,14 +1,6 @@
 # Sensor Board V1
 
-## ToDo
-~~Schaltplan finalisieren~~  
-~~Footprints zuordnen~~  
-~~Komponenten platzieren~~  
-~~Leiterbahnen routen~~  
-~~Platine bestellen~~  
-Gehäuse konstruieren  
-Bauteile bestellen  
-###Platine in Betrieb nehmen:
+## Platine in Betrieb nehmen:
 1. Keine Fuses einlöten, reverse polarity testen (Q1201)
 	- Q1201 Pin 3 liegt Versorgungsspannung an
 	- V_IN LED (D1210) leuchtet
@@ -37,12 +29,17 @@ Bauteile bestellen
 	- Versorgungsspannung wegnehmen
 	- USB Versorgung verbinden und erneut Testprogramm aufspielen
 	- STATUS LED blinkt immer noch
+	
+## Prüfen:
+- 74HC595 Ausgangsspannung an PU/PD Widerständen!
+- Flankensteilheit Halbbrücken einstellen
 
 ## Für V2:
 - Halbbrücken näher an Stecker (Halbbrücken, 1A-Profets, Buck converter)
 - STM um 90° drehen
 - USB Stecker weiter herausstehen lassen
 - kleinere Gehäuse für ICs nutzen
+- Level shifter für 74HC595 nicht notwendig
 - Individuelle Sicherungen für IO Bänke
 - 3.3V Outputs??
 - Umschalten Ausgangsspannung per Software

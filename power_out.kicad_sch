@@ -929,8 +929,8 @@
   )
 
   (bus_alias "Power_CTRL" (members "Half_INH" "1A_DSEL0" "1A_DSEL1" ""))
-  (bus_alias "I_Sense" (members "1A_IS" "Half0_IS" "Half1_IS"))
   (bus_alias "Power_IN" (members "1A_IN0" "1A_IN2" "1A_IN1" "1A_IN3" "Half0_PWM" "Half1_PWM"))
+  (bus_alias "I_Sense" (members "1A_IS" "Half0_IS" "Half1_IS"))
   (junction (at 205.74 154.94) (diameter 0) (color 0 0 0 0)
     (uuid 0b19181d-e99d-4bbe-a7a2-f4db1501da5a)
   )
