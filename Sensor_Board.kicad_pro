@@ -690,6 +690,70 @@
     [
       "76b65cb7-064b-4e1a-ab08-2030a37ece9c",
       "Power Supply"
+    ],
+    [
+      "f56cc148-2036-4208-a8a9-fe5dc8224b74",
+      "Digital Out 0"
+    ],
+    [
+      "370db66b-8baa-4019-829b-e7a0983c8050",
+      "Digital Out 1"
+    ],
+    [
+      "27bf6c1c-afbc-46e8-bec7-c9156f08be20",
+      "Digital Out 2"
+    ],
+    [
+      "418a772b-96de-4454-8525-ea2f100876f1",
+      "Digital Out 3"
+    ],
+    [
+      "d576243a-c310-4531-8182-be710e10a649",
+      "Digital Out 4"
+    ],
+    [
+      "78837c7c-9085-415d-bd1f-6fe191c9d6d3",
+      "Digital Out 5"
+    ],
+    [
+      "6ea30cf0-88a9-4335-b08d-fd78851e3504",
+      "Digital Out 6"
+    ],
+    [
+      "72649bfc-2d23-4408-aab9-820072a8a61e",
+      "Digital Out 7"
+    ],
+    [
+      "5ebe9563-a8b0-434f-a325-e9a66d3fdf28",
+      "Digital In 0"
+    ],
+    [
+      "cff5b672-831a-42b2-8c25-61eb154b11fd",
+      "Digital In 1"
+    ],
+    [
+      "bd2b498f-24a3-4fba-8ee6-7567565d7466",
+      "Digital In 2"
+    ],
+    [
+      "6c380a37-f058-4f7c-90cf-2b4e06c07267",
+      "Digital In 3"
+    ],
+    [
+      "6e1a1f5a-0f42-4552-9795-1f41babba4af",
+      "Digital In 4"
+    ],
+    [
+      "dcb7b160-5102-4119-80a8-24f472c74c1b",
+      "Digital In 5"
+    ],
+    [
+      "6a522f27-6a98-4231-a773-d4eb9ea2f607",
+      "Digital In 6"
+    ],
+    [
+      "b0dda0b4-3ed1-4557-8c33-2fe5ebeafc67",
+      "Digital In 7"
     ]
   ],
   "text_variables": {}

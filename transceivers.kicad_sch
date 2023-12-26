@@ -790,10 +790,10 @@
     )
   )
 
-  (bus_alias "LIN" (members "LIN_TX" "LIN_RX" "LIN_EN"))
-  (bus_alias "Power_OUT" (members "Half0_OUT" "Half1_OUT" "1A_Out0" "1A_Out2" "1A_Out3" "1A_Out1" ""))
-  (bus_alias "Comm" (members "CAN_H" "CAN_L" "LIN"))
   (bus_alias "CAN" (members "CAN_TX" "CAN_RX" "CAN_STBY"))
+  (bus_alias "Comm" (members "CAN_H" "CAN_L" "LIN"))
+  (bus_alias "Power_OUT" (members "Half0_OUT" "Half1_OUT" "1A_Out0" "1A_Out2" "1A_Out3" "1A_Out1" ""))
+  (bus_alias "LIN" (members "LIN_TX" "LIN_RX" "LIN_EN"))
   (junction (at 166.37 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 15987c91-5e80-4ede-9057-7855c86ad49e)
   )
@@ -1348,7 +1348,7 @@
   (symbol (lib_id "power:Vdrive") (at 234.95 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01b79dc2-b3e2-4d68-b153-cc264620da50)
-    (property "Reference" "#PWR0413" (at 229.87 128.27 0)
+    (property "Reference" "#PWR075" (at 229.87 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 234.95 119.38 0)
@@ -1364,7 +1364,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1378,7 +1378,7 @@
   (symbol (lib_id "power:GND") (at 144.78 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b04eb1d-0e3e-4460-840b-d04e4e5ea1a6)
-    (property "Reference" "#PWR0410" (at 144.78 115.57 0)
+    (property "Reference" "#PWR072" (at 144.78 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 114.3 0)
@@ -1394,7 +1394,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1408,7 +1408,7 @@
   (symbol (lib_id "power:Vdrive") (at 166.37 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13ff96d9-19ff-439a-a52d-455dc104d70d)
-    (property "Reference" "#PWR0407" (at 161.29 80.01 0)
+    (property "Reference" "#PWR069" (at 161.29 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 166.37 71.12 0)
@@ -1424,7 +1424,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1438,7 +1438,7 @@
   (symbol (lib_id "FaSTTUBe_Transceivers:TLE9351VSJ") (at 146.05 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1744dc84-9832-4117-a5e4-83b1db879f94)
-    (property "Reference" "U401" (at 148.0694 25.4 0)
+    (property "Reference" "U4" (at 148.0694 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TLE9351VSJ" (at 148.0694 27.94 0)
@@ -1461,7 +1461,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "U401") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1475,7 +1475,7 @@
   (symbol (lib_id "power:GND") (at 146.05 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e06c14f-8241-4ca9-8be1-170c15ff444d)
-    (property "Reference" "#PWR0405" (at 146.05 57.15 0)
+    (property "Reference" "#PWR067" (at 146.05 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 55.88 0)
@@ -1491,7 +1491,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1505,7 +1505,7 @@
   (symbol (lib_id "power:+3.3V") (at 114.3 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20e4fbce-695f-4e30-9978-32c898789318)
-    (property "Reference" "#PWR0402" (at 114.3 41.91 0)
+    (property "Reference" "#PWR064" (at 114.3 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 114.3 33.02 0)
@@ -1521,7 +1521,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1535,7 +1535,7 @@
   (symbol (lib_id "power:GND") (at 234.95 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26fd9124-7283-42e8-a2ab-9f647c113766)
-    (property "Reference" "#PWR0415" (at 234.95 148.59 0)
+    (property "Reference" "#PWR077" (at 234.95 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 147.32 0)
@@ -1551,7 +1551,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1565,7 +1565,7 @@
   (symbol (lib_id "Device:C") (at 215.9 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c411f5a-b190-4ca3-8a6c-f1732a1deed6)
-    (property "Reference" "C405" (at 219.71 132.715 0)
+    (property "Reference" "C24" (at 219.71 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µ" (at 219.71 135.255 0)
@@ -1582,7 +1582,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "C405") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1596,7 +1596,7 @@
   (symbol (lib_id "Device:R") (at 166.37 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e024d36-ce41-4ffd-b7da-9f01131c3ec6)
-    (property "Reference" "R406" (at 168.91 91.4399 0)
+    (property "Reference" "R30" (at 168.91 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 168.91 93.9799 0)
@@ -1613,7 +1613,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "R406") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1627,7 +1627,7 @@
   (symbol (lib_id "Device:C") (at 166.37 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30f18408-39a1-4a27-a7a8-1f140952b4ae)
-    (property "Reference" "C403" (at 170.18 104.775 0)
+    (property "Reference" "C22" (at 170.18 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 170.18 107.315 0)
@@ -1644,7 +1644,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "C403") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1658,7 +1658,7 @@
   (symbol (lib_id "power:Vdrive") (at 144.78 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32aee80d-a35a-4827-a802-b6f4b4353a98)
-    (property "Reference" "#PWR0409" (at 139.7 87.63 0)
+    (property "Reference" "#PWR071" (at 139.7 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 144.78 78.74 0)
@@ -1674,7 +1674,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1688,7 +1688,7 @@
   (symbol (lib_id "power:+5V") (at 146.05 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39f30d6e-4d56-4d55-a084-f8d852ed777a)
-    (property "Reference" "#PWR0401" (at 146.05 29.21 0)
+    (property "Reference" "#PWR063" (at 146.05 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 146.05 20.32 0)
@@ -1704,7 +1704,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0401") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1718,7 +1718,7 @@
   (symbol (lib_id "Device:R") (at 191.77 44.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c7df770-3021-48bb-8811-b8a7bc900469)
-    (property "Reference" "R403" (at 189.23 43.1799 0)
+    (property "Reference" "R27" (at 189.23 43.1799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60.4" (at 189.23 45.7199 0)
@@ -1735,7 +1735,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "R403") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1749,10 +1749,10 @@
   (symbol (lib_id "Device:C") (at 114.3 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e427b10-59fa-4bff-a1f6-fa9d2a1d0b46)
-    (property "Reference" "C402" (at 118.11 46.9899 0)
+    (property "Reference" "C21" (at 118.11 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 118.11 49.5299 0)
+    (property "Value" "100n" (at 118.11 49.5299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 115.2652 52.07 0)
@@ -1766,7 +1766,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "C402") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1780,7 +1780,7 @@
   (symbol (lib_id "Device:Filter_EMI_LL_1423") (at 172.72 38.1 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fca5d08-8e06-411e-965f-6b223eff8858)
-    (property "Reference" "FL401" (at 172.72 33.02 0)
+    (property "Reference" "FL1" (at 172.72 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "WE 744222" (at 172.72 30.48 0)
@@ -1799,7 +1799,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "FL401") (unit 1)
+          (reference "FL1") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1813,7 +1813,7 @@
   (symbol (lib_id "power:GND") (at 208.28 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53fe0510-9bb2-4414-aeb9-4ee04cdfc108)
-    (property "Reference" "#PWR0403" (at 214.63 38.1 0)
+    (property "Reference" "#PWR065" (at 214.63 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 38.0999 90)
@@ -1829,7 +1829,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0403") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1843,10 +1843,10 @@
   (symbol (lib_id "Device:C") (at 234.95 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 579be4c1-b33b-4b1f-b1eb-9b866f5f3ede)
-    (property "Reference" "C406" (at 238.76 132.0799 0)
+    (property "Reference" "C25" (at 238.76 132.0799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 238.76 134.6199 0)
+    (property "Value" "100n" (at 238.76 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 235.9152 137.16 0)
@@ -1860,7 +1860,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "C406") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1874,7 +1874,7 @@
   (symbol (lib_id "power:+3.3V") (at 127 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58e4e7fd-1922-47ff-a1db-c80e29af5df2)
-    (property "Reference" "#PWR0408" (at 127 82.55 0)
+    (property "Reference" "#PWR070" (at 127 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 127 73.66 0)
@@ -1890,7 +1890,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1904,7 +1904,7 @@
   (symbol (lib_id "Device:R") (at 172.72 50.8 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 5e6267fc-2bba-4d4d-a86d-eae176b357ed)
-    (property "Reference" "R404" (at 172.72 57.15 90)
+    (property "Reference" "R28" (at 172.72 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 172.72 54.61 90)
@@ -1921,7 +1921,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "R404") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1935,7 +1935,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 130.81 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f62b83f-dc3c-47d3-b145-fd465869ff73)
-    (property "Reference" "JP401" (at 133.35 48.2599 90)
+    (property "Reference" "JP1" (at 133.35 48.2599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SolderJumper_2_Open" (at 133.35 50.7999 90)
@@ -1952,7 +1952,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "JP401") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1966,7 +1966,7 @@
   (symbol (lib_id "Device:R") (at 127 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7413680b-5d04-483d-913d-8da724087221)
-    (property "Reference" "R405" (at 129.54 84.455 0)
+    (property "Reference" "R29" (at 129.54 84.455 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.4k" (at 129.54 86.995 0)
@@ -1983,7 +1983,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "R405") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -1997,7 +1997,7 @@
   (symbol (lib_id "power:GND") (at 209.55 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bd74049-71d2-44e2-81e3-87e3123fd036)
-    (property "Reference" "#PWR0414" (at 209.55 148.59 0)
+    (property "Reference" "#PWR076" (at 209.55 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 147.32 0)
@@ -2013,7 +2013,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2027,7 +2027,7 @@
   (symbol (lib_id "Device:D_TVS_Dual_AAC") (at 222.25 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e8948df-793c-41cd-9258-5a89656c9909)
-    (property "Reference" "D401" (at 226.06 41.91 90)
+    (property "Reference" "D25" (at 226.06 41.91 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PESD2CANFD24V-T\n" (at 226.06 44.45 90)
@@ -2045,7 +2045,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "D401") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2059,10 +2059,10 @@
   (symbol (lib_id "Device:C") (at 203.2 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 803d7218-3205-41e7-8a28-645b8816cd95)
-    (property "Reference" "C404" (at 207.01 132.0799 0)
+    (property "Reference" "C23" (at 207.01 132.0799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 207.01 134.6199 0)
+    (property "Value" "100n" (at 207.01 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 204.1652 137.16 0)
@@ -2076,7 +2076,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "C404") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2090,10 +2090,10 @@
   (symbol (lib_id "Device:C") (at 201.93 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81af762b-17ba-421d-9be2-0957d97ddf21)
-    (property "Reference" "C401" (at 201.93 30.48 90)
+    (property "Reference" "C20" (at 201.93 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4.7nF" (at 201.93 33.02 90)
+    (property "Value" "4.7n" (at 201.93 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 205.74 37.1348 0)
@@ -2107,7 +2107,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "C401") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2121,7 +2121,7 @@
   (symbol (lib_id "power:GND") (at 166.37 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a15d3007-7859-4d49-8ab9-ee6e0feacbfb)
-    (property "Reference" "#PWR0411" (at 166.37 118.11 0)
+    (property "Reference" "#PWR073" (at 166.37 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 116.84 0)
@@ -2137,7 +2137,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2151,7 +2151,7 @@
   (symbol (lib_id "Device:R") (at 191.77 31.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a326d999-906c-48c8-b43f-c034854198d5)
-    (property "Reference" "R402" (at 189.23 30.4799 0)
+    (property "Reference" "R26" (at 189.23 30.4799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60.4" (at 189.23 33.0199 0)
@@ -2168,7 +2168,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "R402") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2182,7 +2182,7 @@
   (symbol (lib_id "Device:R") (at 172.72 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid b38126ab-0540-4007-a957-8a6d31fe5886)
-    (property "Reference" "R401" (at 172.72 19.05 90)
+    (property "Reference" "R25" (at 172.72 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 172.72 21.59 90)
@@ -2199,7 +2199,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "R401") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2213,7 +2213,7 @@
   (symbol (lib_id "power:GND") (at 114.3 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4efdbc1-1a6d-4146-9355-db458d1db575)
-    (property "Reference" "#PWR0406" (at 114.3 64.77 0)
+    (property "Reference" "#PWR068" (at 114.3 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 63.5 0)
@@ -2229,7 +2229,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2263,7 +2263,7 @@
           (reference "D513") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "D402") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -2272,7 +2272,7 @@
   (symbol (lib_id "power:GND") (at 228.6 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4b53558-27e5-4e63-89b1-0adf479a7354)
-    (property "Reference" "#PWR0404" (at 234.95 38.1 0)
+    (property "Reference" "#PWR066" (at 234.95 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 38.0999 90)
@@ -2288,7 +2288,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2302,7 +2302,7 @@
   (symbol (lib_id "FaSTTUBe_Transceivers:TLE7258SJ") (at 144.78 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e63b1504-6a86-493b-a20e-9ac240b3a1c5)
-    (property "Reference" "U402" (at 146.7994 83.82 0)
+    (property "Reference" "U5" (at 146.7994 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TLE7258SJ" (at 146.7994 86.36 0)
@@ -2325,7 +2325,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "U402") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2339,7 +2339,7 @@
   (symbol (lib_id "power:+5V") (at 209.55 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f585105a-304e-454c-8288-72d48fa67366)
-    (property "Reference" "#PWR0412" (at 209.55 128.27 0)
+    (property "Reference" "#PWR074" (at 209.55 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 209.55 119.38 0)
@@ -2355,7 +2355,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/3da51442-cf5a-4c82-94bf-5b28220d11d0"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"

@@ -719,135 +719,83 @@
         )
       )
     )
-    (symbol "Jumper:Jumper_3_Bridged12" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "JP" (at -2.54 -2.54 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "FaSTTUBe_PnP:BC817" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Jumper_3_Bridged12" (at 0 2.794 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "BC817" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 5.08 -1.905 0)
+        (effects (font (size 1.27 1.27) italic) (justify left) hide)
+      )
+      (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_keywords" "NPN Transistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (at 0 0 0)
+      (property "ki_description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "Jumper SPDT" (at 0 0 0)
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Jumper, 3-pole, pins 1+2 closed/bridged" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Jumper_3_Bridged12_0_0"
-        (circle (center -3.302 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 3.302 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Jumper_3_Bridged12_0_1"
-        (arc (start -0.254 0.508) (mid -1.651 0.9912) (end -3.048 0.508)
+      (symbol "BC817_0_1"
+        (polyline
+          (pts
+            (xy 0.635 0.635)
+            (xy 2.54 2.54)
+          )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 -1.27)
-            (xy 0 -0.508)
+            (xy 0.635 -0.635)
+            (xy 2.54 -2.54)
+            (xy 2.54 -2.54)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
+        (polyline
+          (pts
+            (xy 0.635 1.905)
+            (xy 0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.778)
+            (xy 1.778 -1.27)
+            (xy 2.286 -2.286)
+            (xy 1.27 -1.778)
+            (xy 1.27 -1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 1.27 0) (radius 2.8194)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
       )
-      (symbol "Jumper_3_Bridged12_1_1"
-        (pin passive line (at -6.35 0 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
+      (symbol "BC817_1_1"
+        (pin input line (at -5.08 0 0) (length 5.715)
+          (name "B" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -3.81 90) (length 2.54)
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "C" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 6.35 0 180) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Jumper:SolderJumper_2_Open" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "JP" (at 0 2.032 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SolderJumper_2_Open" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "solder jumper SPST" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Solder Jumper, 2-pole, open" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SolderJumper*Open*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SolderJumper_2_Open_0_1"
-        (arc (start -0.254 1.016) (mid -1.2656 0) (end -0.254 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start -0.254 1.016) (mid -1.2656 0) (end -0.254 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -0.254 1.016)
-            (xy -0.254 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.016)
-            (xy 0.254 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0.254 -1.016) (mid 1.2656 0) (end 0.254 1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0.254 -1.016) (mid 1.2656 0) (end 0.254 1.016)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "SolderJumper_2_Open_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -934,6 +882,167 @@
         (pin power_in line (at -7.62 0 0) (length 2.54)
           (name "VI" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Relay:G5V-1" (in_bom yes) (on_board yes)
+      (property "Reference" "K" (at 11.43 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "G5V-1" (at 11.43 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Relay_THT:Relay_SPDT_Omron_G5V-1" (at 28.702 -0.762 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Single Pole Relay SPDT" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Relay*SPDT*Omron*G5V?1*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "G5V-1_0_0"
+        (polyline
+          (pts
+            (xy 7.62 5.08)
+            (xy 7.62 2.54)
+            (xy 6.985 3.175)
+            (xy 7.62 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "G5V-1_0_1"
+        (rectangle (start -10.16 5.08) (end 10.16 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (rectangle (start -8.255 1.905) (end -1.905 -1.905)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -7.62 -1.905)
+            (xy -2.54 1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 -5.08)
+            (xy -5.08 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy -5.08 1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 0)
+            (xy 0 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.905 0)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.175 0)
+            (xy 3.81 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 3.175 3.81)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 5.08 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 5.08)
+            (xy 2.54 2.54)
+            (xy 3.175 3.175)
+            (xy 2.54 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "G5V-1_1_1"
+        (pin passive line (at 2.54 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -7.62 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -7.62 90) (length 2.54) hide
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -7.62 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1372,8 +1481,11 @@
   (junction (at 226.06 152.4) (diameter 0) (color 0 0 0 0)
     (uuid 005813f9-f28a-42b8-b42a-f0fe56c2e094)
   )
-  (junction (at 101.6 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid 01830f77-05c6-49ae-8e0f-a1930017d3e0)
+  (junction (at 114.3 127) (diameter 0) (color 0 0 0 0)
+    (uuid 055028f9-346f-4abe-b171-a4f8553181b1)
+  )
+  (junction (at 88.9 127) (diameter 0) (color 0 0 0 0)
+    (uuid 088a20db-9cb6-41f2-8f20-69bf683815d7)
   )
   (junction (at 213.36 139.7) (diameter 0) (color 0 0 0 0)
     (uuid 08c07ec1-0107-47aa-996b-c3537c0a0948)
@@ -1384,13 +1496,13 @@
   (junction (at 76.2 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 0f21042d-a419-441c-b94d-31f1f5673e43)
   )
-  (junction (at 95.25 139.7) (diameter 0) (color 0 0 0 0)
-    (uuid 1047c427-2272-4e00-9818-a797d1537ec3)
-  )
   (junction (at 133.35 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 13a4d032-4c4c-4132-8be6-36dd881c028b)
   )
-  (junction (at 38.1 139.7) (diameter 0) (color 0 0 0 0)
+  (junction (at 88.9 165.1) (diameter 0) (color 0 0 0 0)
+    (uuid 2e830a03-a2e9-407e-82c5-34e8c954ed7a)
+  )
+  (junction (at 30.48 139.7) (diameter 0) (color 0 0 0 0)
     (uuid 2e8eed0c-4755-4b3f-8b5a-f1741c81c060)
   )
   (junction (at 190.5 27.94) (diameter 0) (color 0 0 0 0)
@@ -1411,9 +1523,6 @@
   (junction (at 255.27 139.7) (diameter 0) (color 0 0 0 0)
     (uuid 41c7b1f8-749d-4ffe-9c3d-187160ef8696)
   )
-  (junction (at 80.01 139.7) (diameter 0) (color 0 0 0 0)
-    (uuid 43ca6432-7f78-4b3a-9295-48ffa8d4637f)
-  )
   (junction (at 238.76 139.7) (diameter 0) (color 0 0 0 0)
     (uuid 43fdbec1-fa42-42be-bba3-eace462e163c)
   )
@@ -1428,9 +1537,6 @@
   )
   (junction (at 101.6 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 4e8b49ea-94c5-4795-8373-764cdeeee039)
-  )
-  (junction (at 208.28 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid 70cee862-22ac-4a38-9ed9-2906ab56bf3c)
   )
   (junction (at 139.7 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 72021401-7564-4977-b441-e4712b98fb8d)
@@ -1459,6 +1565,9 @@
   (junction (at 205.74 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 9d77c1f3-1b11-482d-9051-222e51868d69)
   )
+  (junction (at 88.9 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid a00f72a2-10ed-48a3-9780-ddada7aeba1d)
+  )
   (junction (at 139.7 53.34) (diameter 0) (color 0 0 0 0)
     (uuid a836ed8a-d504-4e22-b84a-e0fa88811cec)
   )
@@ -1471,13 +1580,13 @@
   (junction (at 212.09 38.1) (diameter 0) (color 0 0 0 0)
     (uuid aedb7d7a-b788-4335-9a26-afc66d1dd3e0)
   )
-  (junction (at 114.3 127) (diameter 0) (color 0 0 0 0)
+  (junction (at 127 165.1) (diameter 0) (color 0 0 0 0)
     (uuid c0736405-7863-4005-b86d-527d268ff450)
   )
   (junction (at 90.17 27.94) (diameter 0) (color 0 0 0 0)
     (uuid ca624aff-a0ab-4974-984b-600348810574)
   )
-  (junction (at 50.8 152.4) (diameter 0) (color 0 0 0 0)
+  (junction (at 43.18 152.4) (diameter 0) (color 0 0 0 0)
     (uuid d4e513be-486d-4962-8f66-e020b00438f1)
   )
   (junction (at 38.1 40.64) (diameter 0) (color 0 0 0 0)
@@ -1489,13 +1598,13 @@
   (junction (at 254 27.94) (diameter 0) (color 0 0 0 0)
     (uuid ebffb5bb-35a2-468c-8d61-967eb5455174)
   )
-  (junction (at 63.5 139.7) (diameter 0) (color 0 0 0 0)
+  (junction (at 55.88 139.7) (diameter 0) (color 0 0 0 0)
     (uuid f3f8fbda-ad67-4955-bcb6-d465150d1cc0)
   )
   (junction (at 55.88 27.94) (diameter 0) (color 0 0 0 0)
     (uuid fcaffdab-64ef-4fc5-8924-33c5863ebf48)
   )
-  (junction (at 114.3 138.43) (diameter 0) (color 0 0 0 0)
+  (junction (at 127 176.53) (diameter 0) (color 0 0 0 0)
     (uuid fd861888-6029-4c77-a728-ad657d7179bf)
   )
 
@@ -1514,21 +1623,21 @@
     (stroke (width 0) (type default))
     (uuid 01a9dd76-9743-49c6-bffb-2cd4a6dffd6b)
   )
-  (wire (pts (xy 91.44 139.7) (xy 95.25 139.7))
-    (stroke (width 0) (type default))
-    (uuid 03360ff6-13a4-40cb-8c37-9e2957e9ea10)
-  )
-  (wire (pts (xy 208.28 111.76) (xy 208.28 114.3))
-    (stroke (width 0) (type default))
-    (uuid 03b76785-abb7-4f61-b50d-f19646db9c12)
-  )
   (wire (pts (xy 77.47 27.94) (xy 90.17 27.94))
     (stroke (width 0) (type default))
     (uuid 0648c912-816c-4929-8b8e-272eafc873a1)
   )
-  (wire (pts (xy 114.3 128.27) (xy 114.3 127))
+  (wire (pts (xy 127 166.37) (xy 127 165.1))
     (stroke (width 0) (type default))
     (uuid 0683bf94-9db0-4a7f-a4fd-d0cf3825170d)
+  )
+  (wire (pts (xy 88.9 151.13) (xy 88.9 144.78))
+    (stroke (width 0) (type default))
+    (uuid 06a029f3-7084-4ee7-9973-0074dd727166)
+  )
+  (wire (pts (xy 101.6 162.56) (xy 101.6 165.1))
+    (stroke (width 0) (type default))
+    (uuid 071d1367-58e3-45bd-9143-a69ca1702f33)
   )
   (wire (pts (xy 63.5 63.5) (xy 66.04 63.5))
     (stroke (width 0) (type default))
@@ -1538,17 +1647,13 @@
     (stroke (width 0) (type default))
     (uuid 0c65361f-e3f9-4f98-b2ce-beaffd9ea5c4)
   )
-  (wire (pts (xy 114.3 148.59) (xy 114.3 151.13))
+  (wire (pts (xy 127 186.69) (xy 127 189.23))
     (stroke (width 0) (type default))
     (uuid 0de06253-3750-4b07-97b5-6b7f9045c6bb)
   )
   (wire (pts (xy 76.2 86.36) (xy 76.2 88.9))
     (stroke (width 0) (type default))
     (uuid 100addc0-8805-4823-b419-70a464afcf05)
-  )
-  (wire (pts (xy 83.82 149.86) (xy 80.01 149.86))
-    (stroke (width 0) (type default))
-    (uuid 10c3547b-6df6-48cc-abba-210e2474ffce)
   )
   (wire (pts (xy 48.26 38.1) (xy 48.26 40.64))
     (stroke (width 0) (type default))
@@ -1570,6 +1675,10 @@
     (stroke (width 0) (type default))
     (uuid 13e5fbb9-ca64-4866-ac24-6aec94067f03)
   )
+  (wire (pts (xy 88.9 165.1) (xy 88.9 158.75))
+    (stroke (width 0) (type default))
+    (uuid 1436eb9b-72bf-4ab5-91a7-aead9d29a3bd)
+  )
   (wire (pts (xy 175.26 60.96) (xy 175.26 63.5))
     (stroke (width 0) (type default))
     (uuid 14e0cca6-d9ba-478b-a702-f009b447e3f4)
@@ -1578,7 +1687,7 @@
     (stroke (width 0) (type default))
     (uuid 15a990c3-af55-4685-a741-a65e8e69fc5f)
   )
-  (wire (pts (xy 38.1 139.7) (xy 43.18 139.7))
+  (wire (pts (xy 30.48 139.7) (xy 35.56 139.7))
     (stroke (width 0) (type default))
     (uuid 19286e92-262a-4696-805a-c00a8a689972)
   )
@@ -1606,11 +1715,15 @@
     (stroke (width 0) (type default))
     (uuid 1e8523fa-637c-4ca8-a122-d60a17a3ec51)
   )
-  (wire (pts (xy 63.5 139.7) (xy 58.42 139.7))
+  (wire (pts (xy 55.88 139.7) (xy 50.8 139.7))
     (stroke (width 0) (type default))
     (uuid 1eeadac6-de18-435f-bb6a-47aee5e751a4)
   )
-  (wire (pts (xy 114.3 124.46) (xy 114.3 127))
+  (wire (pts (xy 88.9 127) (xy 114.3 127))
+    (stroke (width 0) (type default))
+    (uuid 1f728426-7cf8-4d0b-83cf-9d493f30a855)
+  )
+  (wire (pts (xy 127 162.56) (xy 127 165.1))
     (stroke (width 0) (type default))
     (uuid 2310be80-69c6-47f3-a5f6-a1b1329590f0)
   )
@@ -1641,6 +1754,10 @@
   (wire (pts (xy 226.06 152.4) (xy 226.06 154.94))
     (stroke (width 0) (type default))
     (uuid 2ee291a2-7082-46a7-b36a-a0e69c225e3c)
+  )
+  (wire (pts (xy 111.76 165.1) (xy 127 165.1))
+    (stroke (width 0) (type default))
+    (uuid 3158c829-ec41-414e-877d-b633c35ae9a4)
   )
   (wire (pts (xy 215.9 73.66) (xy 215.9 76.2))
     (stroke (width 0) (type default))
@@ -1686,6 +1803,10 @@
     (stroke (width 0) (type default))
     (uuid 472a1d00-bce1-42c7-961f-f77e675204d5)
   )
+  (wire (pts (xy 88.9 127) (xy 88.9 144.78))
+    (stroke (width 0) (type default))
+    (uuid 4799d31b-f862-4028-a906-9057d8743b6d)
+  )
   (wire (pts (xy 212.09 36.83) (xy 212.09 38.1))
     (stroke (width 0) (type default))
     (uuid 481a8d46-ab0b-401c-875d-86a3a93bc9ae)
@@ -1699,6 +1820,10 @@
     (uuid 4916048e-4bc0-4dea-be59-1fdfb6d88332)
   )
 
+  (wire (pts (xy 208.28 121.92) (xy 208.28 127))
+    (stroke (width 0) (type default))
+    (uuid 4ab641df-8339-41d6-bdea-3a9fc484a694)
+  )
   (wire (pts (xy 251.46 139.7) (xy 255.27 139.7))
     (stroke (width 0) (type default))
     (uuid 4d1d0a49-afc2-4c31-8af8-98ce93f32aed)
@@ -1715,7 +1840,7 @@
     (stroke (width 0) (type default))
     (uuid 4ef13343-6ed0-430f-b957-859e40404d69)
   )
-  (wire (pts (xy 38.1 142.24) (xy 38.1 139.7))
+  (wire (pts (xy 30.48 142.24) (xy 30.48 139.7))
     (stroke (width 0) (type default))
     (uuid 4f21f56c-0b43-4668-a4a6-98c168817763)
   )
@@ -1739,7 +1864,7 @@
     (stroke (width 0) (type default))
     (uuid 559db6c4-39bf-426c-91f2-5b2aa5edf409)
   )
-  (wire (pts (xy 101.6 114.3) (xy 208.28 114.3))
+  (wire (pts (xy 53.34 127) (xy 88.9 127))
     (stroke (width 0) (type default))
     (uuid 5696ccbd-b422-452b-8bbc-ab296460e0e0)
   )
@@ -1751,10 +1876,6 @@
     (stroke (width 0) (type default))
     (uuid 5726b370-a219-4be2-86cd-dbb20389a67c)
   )
-  (wire (pts (xy 101.6 139.7) (xy 101.6 133.35))
-    (stroke (width 0) (type default))
-    (uuid 57c501c4-930e-446c-b984-36ae05374580)
-  )
   (wire (pts (xy 266.7 33.02) (xy 266.7 27.94))
     (stroke (width 0) (type default))
     (uuid 58722ee8-9479-4f51-8ed7-daa9ec9a1ff0)
@@ -1763,9 +1884,13 @@
     (stroke (width 0) (type default))
     (uuid 58855102-ae98-4f82-ae09-95bfae571028)
   )
-  (wire (pts (xy 95.25 139.7) (xy 95.25 149.86))
+  (wire (pts (xy 68.58 172.72) (xy 71.12 172.72))
     (stroke (width 0) (type default))
-    (uuid 5c099b15-24da-4973-abf2-c6c51482696b)
+    (uuid 5a0715d4-9dba-4f5e-bd03-7a076676b876)
+  )
+  (wire (pts (xy 111.76 162.56) (xy 111.76 165.1))
+    (stroke (width 0) (type default))
+    (uuid 5d09f06d-c907-4c98-8478-ea7c9bc2e32b)
   )
   (wire (pts (xy 73.66 63.5) (xy 76.2 63.5))
     (stroke (width 0) (type default))
@@ -1795,21 +1920,33 @@
     (stroke (width 0) (type default))
     (uuid 662c205d-64ad-4346-aa0f-19046e09604f)
   )
-  (wire (pts (xy 50.8 152.4) (xy 63.5 152.4))
+  (wire (pts (xy 114.3 127) (xy 208.28 127))
+    (stroke (width 0) (type default))
+    (uuid 66de7ee0-064c-4154-886e-aed1afc6cd81)
+  )
+  (wire (pts (xy 43.18 152.4) (xy 55.88 152.4))
     (stroke (width 0) (type default))
     (uuid 699b53c4-961a-458a-aaa0-9b77c2a7e706)
+  )
+  (wire (pts (xy 101.6 165.1) (xy 88.9 165.1))
+    (stroke (width 0) (type default))
+    (uuid 69deb1ab-7b60-43c8-87d4-cae63f5bd6ef)
   )
   (wire (pts (xy 215.9 83.82) (xy 215.9 86.36))
     (stroke (width 0) (type default))
     (uuid 6a936045-767c-4fb6-a977-e3146f4cf81e)
   )
-  (wire (pts (xy 38.1 152.4) (xy 50.8 152.4))
+  (wire (pts (xy 30.48 152.4) (xy 43.18 152.4))
     (stroke (width 0) (type default))
     (uuid 6baca752-f54a-44d8-b9d1-4ab28dbd49c0)
   )
   (wire (pts (xy 101.6 41.91) (xy 101.6 46.99))
     (stroke (width 0) (type default))
     (uuid 6c7485b2-99d0-42d4-b048-3bdd811cca8f)
+  )
+  (wire (pts (xy 88.9 165.1) (xy 88.9 167.64))
+    (stroke (width 0) (type default))
+    (uuid 6ccdb175-9e02-42f0-8437-b08a13ba609f)
   )
   (wire (pts (xy 48.26 27.94) (xy 48.26 30.48))
     (stroke (width 0) (type default))
@@ -1822,10 +1959,6 @@
   (wire (pts (xy 241.3 73.66) (xy 241.3 76.2))
     (stroke (width 0) (type default))
     (uuid 6f524fe7-4e4d-4bc6-91f2-221377ba1ae4)
-  )
-  (wire (pts (xy 95.25 139.7) (xy 101.6 139.7))
-    (stroke (width 0) (type default))
-    (uuid 722e5195-5aa5-4a91-830c-a50ae322a457)
   )
   (wire (pts (xy 133.35 43.18) (xy 142.24 43.18))
     (stroke (width 0) (type default))
@@ -1863,7 +1996,7 @@
     (stroke (width 0) (type default))
     (uuid 7d9ba488-2034-430c-95e6-cc70156d9b29)
   )
-  (wire (pts (xy 114.3 138.43) (xy 127 138.43))
+  (wire (pts (xy 127 176.53) (xy 139.7 176.53))
     (stroke (width 0) (type default))
     (uuid 7db2b876-e246-4dce-89c8-07d7350ee826)
   )
@@ -1883,7 +2016,7 @@
     (stroke (width 0) (type default))
     (uuid 82ffdeb1-5422-4a4a-974b-79dfe7be940c)
   )
-  (wire (pts (xy 38.1 149.86) (xy 38.1 152.4))
+  (wire (pts (xy 30.48 149.86) (xy 30.48 152.4))
     (stroke (width 0) (type default))
     (uuid 834ffc22-61aa-47ee-8811-64d2f2e3f5c8)
   )
@@ -1891,7 +2024,7 @@
     (stroke (width 0) (type default))
     (uuid 840b3af4-1f14-40f0-be33-3d555f863a78)
   )
-  (wire (pts (xy 63.5 142.24) (xy 63.5 139.7))
+  (wire (pts (xy 55.88 142.24) (xy 55.88 139.7))
     (stroke (width 0) (type default))
     (uuid 84fe76b5-43de-4f28-9a23-f1a54dfc0fd3)
   )
@@ -1902,10 +2035,6 @@
   (wire (pts (xy 208.28 127) (xy 208.28 139.7))
     (stroke (width 0) (type default))
     (uuid 8896a83d-1c8a-4daa-aff5-64f821a4cd33)
-  )
-  (wire (pts (xy 80.01 149.86) (xy 80.01 139.7))
-    (stroke (width 0) (type default))
-    (uuid 88b90236-d1b7-4b32-b16a-9f00da21ca55)
   )
   (wire (pts (xy 172.72 27.94) (xy 190.5 27.94))
     (stroke (width 0) (type default))
@@ -1939,10 +2068,6 @@
     (stroke (width 0) (type default))
     (uuid 91b67a9f-a282-4345-b22e-2dd3cafaf6f0)
   )
-  (wire (pts (xy 57.15 114.3) (xy 101.6 114.3))
-    (stroke (width 0) (type default))
-    (uuid 93e3fd00-198b-4feb-bb24-21fb03d83af1)
-  )
   (wire (pts (xy 76.2 76.2) (xy 76.2 78.74))
     (stroke (width 0) (type default))
     (uuid 94c0b87b-53ee-4377-9558-23aca220e2ba)
@@ -1959,13 +2084,25 @@
     (stroke (width 0) (type default))
     (uuid 98f8136f-f324-4b20-875e-087d326a78a7)
   )
+  (wire (pts (xy 88.9 177.8) (xy 88.9 180.34))
+    (stroke (width 0) (type default))
+    (uuid 991d0e2e-b003-4741-b98c-937f2870875f)
+  )
   (wire (pts (xy 142.24 33.02) (xy 139.7 33.02))
     (stroke (width 0) (type default))
     (uuid 99bee8b8-f6f3-4e84-88f6-3ac0b13b3796)
   )
+  (wire (pts (xy 101.6 144.78) (xy 101.6 147.32))
+    (stroke (width 0) (type default))
+    (uuid 9aab2f1a-fdb2-41cd-aaf5-5c6bffa7f217)
+  )
   (wire (pts (xy 177.8 139.7) (xy 172.72 139.7))
     (stroke (width 0) (type default))
     (uuid 9bafab73-b3aa-467d-873a-4ac4174492b9)
+  )
+  (wire (pts (xy 78.74 172.72) (xy 81.28 172.72))
+    (stroke (width 0) (type default))
+    (uuid 9c59d840-b4af-41ff-952b-d2d9ef13c4c9)
   )
   (wire (pts (xy 213.36 142.24) (xy 213.36 139.7))
     (stroke (width 0) (type default))
@@ -1991,7 +2128,7 @@
     (stroke (width 0) (type default))
     (uuid a6fe91e3-7afc-464e-b4a3-ee914a3ea9c1)
   )
-  (wire (pts (xy 50.8 152.4) (xy 50.8 147.32))
+  (wire (pts (xy 43.18 152.4) (xy 43.18 147.32))
     (stroke (width 0) (type default))
     (uuid aa11be15-24f9-4a53-bb75-efc0a5ec7bda)
   )
@@ -1999,7 +2136,11 @@
     (stroke (width 0) (type default))
     (uuid b231c985-f059-4d26-8e25-af3111e51984)
   )
-  (wire (pts (xy 34.29 114.3) (xy 36.83 114.3))
+  (wire (pts (xy 88.9 144.78) (xy 101.6 144.78))
+    (stroke (width 0) (type default))
+    (uuid b38728d6-3fa0-47ac-89ff-7ac9a2283d72)
+  )
+  (wire (pts (xy 30.48 127) (xy 33.02 127))
     (stroke (width 0) (type default))
     (uuid b4e0f19f-2299-4ebc-9325-5cd009a97564)
   )
@@ -2015,11 +2156,11 @@
     (stroke (width 0) (type default))
     (uuid b68ef269-b0c3-43e2-abd3-938a0dd8e230)
   )
-  (wire (pts (xy 50.8 152.4) (xy 50.8 154.94))
+  (wire (pts (xy 43.18 152.4) (xy 43.18 154.94))
     (stroke (width 0) (type default))
     (uuid b7ad41fb-8c02-485b-8eee-d49de97d2ca0)
   )
-  (wire (pts (xy 114.3 135.89) (xy 114.3 138.43))
+  (wire (pts (xy 127 173.99) (xy 127 176.53))
     (stroke (width 0) (type default))
     (uuid b9f28882-dcc4-4f12-8776-81888dbe412a)
   )
@@ -2031,21 +2172,13 @@
     (stroke (width 0) (type default))
     (uuid bb73f090-33a1-49d1-8cb4-bf741e12e2fa)
   )
-  (wire (pts (xy 63.5 139.7) (xy 68.58 139.7))
+  (wire (pts (xy 55.88 139.7) (xy 60.96 139.7))
     (stroke (width 0) (type default))
     (uuid bb82971d-57ce-4a30-8493-9bbb6a6aba02)
   )
-  (wire (pts (xy 80.01 139.7) (xy 83.82 139.7))
+  (wire (pts (xy 109.22 147.32) (xy 109.22 139.7))
     (stroke (width 0) (type default))
-    (uuid bbcbad7e-64bd-4048-9e7f-12ade5c20700)
-  )
-  (wire (pts (xy 208.28 114.3) (xy 208.28 127))
-    (stroke (width 0) (type default))
-    (uuid bcb49570-1a9e-4a63-8c1a-d42512da5b16)
-  )
-  (wire (pts (xy 101.6 114.3) (xy 101.6 120.65))
-    (stroke (width 0) (type default))
-    (uuid bfc47c6a-fcb4-4e5c-848a-e90efe63324c)
+    (uuid bde33132-2c93-4437-ac37-d67e842fa58c)
   )
   (wire (pts (xy 208.28 127) (xy 213.36 127))
     (stroke (width 0) (type default))
@@ -2062,10 +2195,6 @@
   (wire (pts (xy 63.5 27.94) (xy 66.04 27.94))
     (stroke (width 0) (type default))
     (uuid c4890f7f-8e84-4f16-8d3d-4db97571502d)
-  )
-  (wire (pts (xy 105.41 127) (xy 114.3 127))
-    (stroke (width 0) (type default))
-    (uuid c4fbdbbc-f402-4742-bb56-2ae607318f67)
   )
   (wire (pts (xy 203.2 139.7) (xy 208.28 139.7))
     (stroke (width 0) (type default))
@@ -2087,10 +2216,6 @@
   (wire (pts (xy 172.72 48.26) (xy 175.26 48.26))
     (stroke (width 0) (type default))
     (uuid ce1dc1f0-b5fb-4b6b-aecb-d46aa12c2ce0)
-  )
-  (wire (pts (xy 91.44 149.86) (xy 95.25 149.86))
-    (stroke (width 0) (type default))
-    (uuid cf54d20a-cc99-49bd-8fb2-8e5d7dcbb272)
   )
   (wire (pts (xy 212.09 38.1) (xy 212.09 39.37))
     (stroke (width 0) (type default))
@@ -2137,17 +2262,21 @@
     (uuid e0fd0a23-7e24-41da-98db-92030fc84e25)
   )
 
-  (wire (pts (xy 114.3 138.43) (xy 114.3 140.97))
+  (wire (pts (xy 127 176.53) (xy 127 179.07))
     (stroke (width 0) (type default))
     (uuid e10c1f75-d147-48cd-b1bc-20b1a4a32101)
   )
-  (wire (pts (xy 114.3 127) (xy 127 127))
+  (wire (pts (xy 127 165.1) (xy 139.7 165.1))
     (stroke (width 0) (type default))
     (uuid e2bcafba-eb9f-4d43-a304-8e0e890635df)
   )
   (wire (pts (xy 266.7 40.64) (xy 266.7 45.72))
     (stroke (width 0) (type default))
     (uuid e36824ff-4906-4aba-89b2-caedae32f42e)
+  )
+  (wire (pts (xy 109.22 139.7) (xy 68.58 139.7))
+    (stroke (width 0) (type default))
+    (uuid e3d678d4-be44-47c9-a3cc-cc83d9654d5e)
   )
   (wire (pts (xy 147.32 139.7) (xy 152.4 139.7))
     (stroke (width 0) (type default))
@@ -2161,7 +2290,7 @@
     (stroke (width 0) (type default))
     (uuid e4d9f10c-3164-476f-b214-64ee3b474b68)
   )
-  (wire (pts (xy 33.02 139.7) (xy 38.1 139.7))
+  (wire (pts (xy 25.4 139.7) (xy 30.48 139.7))
     (stroke (width 0) (type default))
     (uuid e657633d-8034-4d8c-a3a5-2d4b022ea01d)
   )
@@ -2185,13 +2314,13 @@
     (stroke (width 0) (type default))
     (uuid f49c31e7-ae59-47fc-b7ce-66a0700efcb8)
   )
-  (wire (pts (xy 63.5 152.4) (xy 63.5 149.86))
+  (wire (pts (xy 114.3 127) (xy 114.3 147.32))
+    (stroke (width 0) (type default))
+    (uuid f7033c30-48ea-43aa-99b5-b5882b3d867b)
+  )
+  (wire (pts (xy 55.88 152.4) (xy 55.88 149.86))
     (stroke (width 0) (type default))
     (uuid f7ed37eb-9b3b-4af1-85bf-7cde857dab70)
-  )
-  (wire (pts (xy 76.2 139.7) (xy 80.01 139.7))
-    (stroke (width 0) (type default))
-    (uuid f98503ee-8302-4436-b2e1-fdeb44e10ac9)
   )
   (wire (pts (xy 264.16 121.92) (xy 251.46 121.92))
     (stroke (width 0) (type default))
@@ -2217,7 +2346,7 @@
     (stroke (width 0) (type default))
     (uuid fe2ea53f-319c-40c3-a51f-501603d8ec5b)
   )
-  (wire (pts (xy 44.45 114.3) (xy 49.53 114.3))
+  (wire (pts (xy 40.64 127) (xy 45.72 127))
     (stroke (width 0) (type default))
     (uuid fe447bc2-924b-4216-b3a0-8aa3e0caa630)
   )
@@ -2230,7 +2359,11 @@
     (uuid fffa2fdb-2aae-424a-80d1-a9f758267ea4)
   )
 
-  (label "VS_5VA" (at 127 138.43 180) (fields_autoplaced)
+  (label "+5VA_ext" (at 78.74 139.7 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 14d76af9-eaa6-45e0-ada4-f36d39610172)
+  )
+  (label "VS_5VA" (at 139.7 176.53 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1b5b6665-8a24-4e10-ab53-61c193bfb86f)
   )
@@ -2262,16 +2395,16 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b6161d23-454e-471f-b1ad-521bcb3cf221)
   )
-  (label "6V_Buck" (at 33.02 139.7 0) (fields_autoplaced)
+  (label "6V_Buck" (at 25.4 139.7 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid daa61c55-d496-43e4-8d1f-97c75b9be198)
   )
-  (label "+5VA_reg" (at 59.69 139.7 0) (fields_autoplaced)
+  (label "+5VA_reg" (at 52.07 139.7 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid edcfa1d8-ef15-4566-8d25-aeadeadf4a25)
   )
 
-  (hierarchical_label "VBUS" (shape input) (at 34.29 114.3 180) (fields_autoplaced)
+  (hierarchical_label "VBUS" (shape input) (at 30.48 127 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 28d7af0e-e661-4ca7-9097-10405148ec4b)
   )
@@ -2299,7 +2432,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid dbc13668-9055-4edb-a8e8-17e97336f14a)
   )
-  (hierarchical_label "+5VA" (shape output) (at 127 127 0) (fields_autoplaced)
+  (hierarchical_label "+5VA" (shape output) (at 139.7 165.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fa8ffa19-13f7-479d-a84c-ea09ac9c236a)
   )
@@ -2326,7 +2459,7 @@
           (reference "#PWR0104") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01227") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -2335,7 +2468,7 @@
   (symbol (lib_id "Device:C") (at 241.3 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0697d8d0-8f95-4754-aa20-df3b4bfaeca6)
-    (property "Reference" "C1203" (at 245.11 35.5599 0)
+    (property "Reference" "C63" (at 245.11 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µ" (at 245.11 38.0999 0)
@@ -2355,7 +2488,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1203") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2369,7 +2502,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 241.3 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07e53d8a-a9b1-4ed4-8afd-01d2ffd090a9)
-    (property "Reference" "#FLG01202" (at 241.3 23.495 0)
+    (property "Reference" "#FLG04" (at 241.3 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 241.3 21.59 0)
@@ -2385,7 +2518,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01202") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -2414,7 +2547,7 @@
           (reference "D508") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1210") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
@@ -2423,7 +2556,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 133.35 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09d4763a-0404-432a-94ba-1a43bdc94472)
-    (property "Reference" "#FLG01208" (at 133.35 23.495 0)
+    (property "Reference" "#FLG03" (at 133.35 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 133.35 21.59 0)
@@ -2439,7 +2572,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01208") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -2467,7 +2600,7 @@
           (reference "#PWR0103") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01226") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -2476,10 +2609,10 @@
   (symbol (lib_id "Device:C") (at 101.6 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0cef0143-0ecc-48db-9809-234656eaace8)
-    (property "Reference" "C1208" (at 105.41 36.8299 0)
+    (property "Reference" "C68" (at 105.41 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10µF" (at 105.41 39.3699 0)
+    (property "Value" "10µ" (at 105.41 39.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 102.5652 41.91 0)
@@ -2496,7 +2629,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1208") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2507,47 +2640,10 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT60A") (at 87.63 139.7 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0f280759-875a-40a5-9642-3b3c1a3b6c87)
-    (property "Reference" "D33" (at 87.9475 134.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BAT60A" (at 87.9475 137.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-323" (at 87.63 135.255 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9" (at 87.63 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fa9ffcb6-3a5d-45a1-80ab-ba6a92aefbbe))
-    (pin "2" (uuid 4bac0683-fd82-4266-b9c3-bd26e8e4968a))
-    (instances
-      (project "Sensor_Board"
-        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/8460c5f0-f567-411d-b3a7-76d8207879f4"
-          (reference "D33") (unit 1)
-        )
-        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921"
-          (reference "D21") (unit 1)
-        )
-        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1204") (unit 1)
-        )
-      )
-      (project "FT22_VCU_Konzept"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3c48a9d0-891a-4016-826f-62373ede344c"
-          (reference "D33") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 226.06 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fd7da2f-e099-473f-a169-9716b8843fec)
-    (property "Reference" "#PWR01220" (at 226.06 161.29 0)
+    (property "Reference" "#PWR0180" (at 226.06 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 160.02 0)
@@ -2563,7 +2659,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01220") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2577,7 +2673,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S33TR_SOT223") (at 226.06 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11c5f621-213b-4a2b-b9fa-b1d72cb30ac6)
-    (property "Reference" "U1204" (at 226.06 133.35 0)
+    (property "Reference" "U15" (at 226.06 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD1117S33TR_SOT223" (at 226.06 135.89 0)
@@ -2595,7 +2691,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "U1204") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2606,37 +2702,10 @@
     )
   )
 
-  (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 101.6 127 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1ca5f6b7-4f9d-432d-9834-65100e0aa88f)
-    (property "Reference" "JP1201" (at 99.06 126.365 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "USB_5VA" (at 99.06 128.905 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 101.6 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 101.6 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 064f188c-8f2b-4132-8c46-65f0d5383ae3))
-    (pin "2" (uuid 370e6b03-60ce-486d-807e-2adea09a6e7d))
-    (pin "3" (uuid 0ee9854d-fc7e-4240-8798-e32976f33bde))
-    (instances
-      (project "Sensor_Board"
-        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "JP1201") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Diode:BZX84Cxx") (at 48.26 34.29 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cd8cbd0-f557-4bc4-a79b-7b1d1c2d68eb)
-    (property "Reference" "D1201" (at 50.8 33.655 90)
+    (property "Reference" "D41" (at 50.8 33.655 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BZX84C15" (at 50.8 36.195 90)
@@ -2654,7 +2723,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1201") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -2683,7 +2752,7 @@
           (reference "R527") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1212") (unit 1)
+          (reference "R81") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2697,7 +2766,7 @@
   (symbol (lib_id "Device:R") (at 212.09 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23101406-8fa5-4b15-a026-12dbc235d6e2)
-    (property "Reference" "R1201" (at 214.63 31.7499 0)
+    (property "Reference" "R72" (at 214.63 31.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "82.5k" (at 214.63 34.2899 0)
@@ -2714,7 +2783,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1201") (unit 1)
+          (reference "R72") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2728,10 +2797,10 @@
   (symbol (lib_id "Device:C") (at 90.17 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2507fd3f-3e08-4906-9e8e-61a36f9f89b2)
-    (property "Reference" "C1207" (at 93.98 36.8299 0)
+    (property "Reference" "C67" (at 93.98 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10µF" (at 93.98 39.3699 0)
+    (property "Value" "10µ" (at 93.98 39.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 91.1352 41.91 0)
@@ -2748,7 +2817,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1207") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2762,7 +2831,7 @@
   (symbol (lib_id "Device:R") (at 38.1 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 253fa889-1575-46a8-a2af-284dae2e8ba3)
-    (property "Reference" "R1204" (at 40.64 46.355 0)
+    (property "Reference" "R75" (at 40.64 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 40.64 48.895 0)
@@ -2779,7 +2848,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1204") (unit 1)
+          (reference "R75") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2790,19 +2859,19 @@
     )
   )
 
-  (symbol (lib_id "Device:Fuse") (at 40.64 114.3 270) (unit 1)
+  (symbol (lib_id "Device:Fuse") (at 36.83 127 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2efda168-0e7e-4ff8-844c-e67c8442d9eb)
-    (property "Reference" "F1203" (at 40.64 109.0356 90)
+    (property "Reference" "F3" (at 36.83 121.7356 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.5A" (at 40.64 111.5756 90)
+    (property "Value" "0.5A" (at 36.83 124.2756 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 40.64 112.522 90)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 36.83 125.222 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 40.64 114.3 0)
+    (property "Datasheet" "~" (at 36.83 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c1b42c78-9cf8-4742-b833-1de6eb5b1946))
@@ -2810,7 +2879,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "F1203") (unit 1)
+          (reference "F3") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2824,7 +2893,7 @@
   (symbol (lib_id "power:GND") (at 266.7 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3065643b-616d-47a9-946c-4aba2e890604)
-    (property "Reference" "#PWR01203" (at 266.7 52.07 0)
+    (property "Reference" "#PWR0153" (at 266.7 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 50.8 0)
@@ -2840,7 +2909,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01203") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2854,10 +2923,10 @@
   (symbol (lib_id "Device:C") (at 224.79 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 306b401c-28c7-41ee-93f1-c2f551efbf83)
-    (property "Reference" "C1202" (at 228.6 31.7499 0)
+    (property "Reference" "C62" (at 228.6 31.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100pF" (at 228.6 34.2899 0)
+    (property "Value" "100p" (at 228.6 34.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 225.7552 36.83 0)
@@ -2871,7 +2940,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1202") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2885,7 +2954,7 @@
   (symbol (lib_id "Device:Fuse") (at 69.85 27.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3084d94f-79d6-4ec8-b050-ed9f21061b46)
-    (property "Reference" "F1201" (at 69.85 22.86 90)
+    (property "Reference" "F1" (at 69.85 22.86 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2A" (at 69.85 25.4 90)
@@ -2902,7 +2971,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "F1201") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2916,7 +2985,7 @@
   (symbol (lib_id "Device:R") (at 76.2 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30efb210-05d7-42a4-bcad-161dd173ec42)
-    (property "Reference" "R1205" (at 78.74 69.215 0)
+    (property "Reference" "R76" (at 78.74 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 78.74 71.755 0)
@@ -2933,7 +3002,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1205") (unit 1)
+          (reference "R76") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2944,26 +3013,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 114.3 151.13 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 127 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 347f5464-adea-4236-8ade-5eb79dd979d0)
-    (property "Reference" "#PWR01217" (at 114.3 157.48 0)
+    (property "Reference" "#PWR0177" (at 127 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 114.3 156.21 0)
+    (property "Value" "GND" (at 127 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 114.3 151.13 0)
+    (property "Footprint" "" (at 127 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 114.3 151.13 0)
+    (property "Datasheet" "" (at 127 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 54c7bcf7-c227-4900-af11-f96481e6aa65))
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01217") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2977,7 +3046,7 @@
   (symbol (lib_id "Device:R") (at 212.09 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36a654af-de2a-42eb-8cb5-1ea928dc9287)
-    (property "Reference" "R1203" (at 214.63 41.9099 0)
+    (property "Reference" "R74" (at 214.63 41.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "16.5k" (at 214.63 44.4499 0)
@@ -2994,7 +3063,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1203") (unit 1)
+          (reference "R74") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3008,7 +3077,7 @@
   (symbol (lib_id "Device:C") (at 177.8 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a96d464-acd0-4f85-a408-b10421cc13ad)
-    (property "Reference" "C1215" (at 181.61 144.7799 0)
+    (property "Reference" "C75" (at 181.61 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µ" (at 181.61 147.3199 0)
@@ -3028,7 +3097,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1215") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3042,7 +3111,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S50TR_SOT223") (at 165.1 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c16bec7-6172-4718-a51f-ec512baddede)
-    (property "Reference" "U1203" (at 165.1 133.35 0)
+    (property "Reference" "U14" (at 165.1 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD1117S50TR_SOT223" (at 165.1 135.89 0)
@@ -3060,7 +3129,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "U1203") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3074,7 +3143,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 255.27 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ee2143d-2e0f-410e-8839-cf026ba31039)
-    (property "Reference" "#FLG01206" (at 255.27 132.715 0)
+    (property "Reference" "#FLG09" (at 255.27 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 255.27 130.81 0)
@@ -3090,7 +3159,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01206") (unit 1)
+          (reference "#FLG09") (unit 1)
         )
       )
     )
@@ -3119,7 +3188,7 @@
           (reference "D508") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1209") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -3147,25 +3216,25 @@
           (reference "#PWR0101") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01229") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 114.3 132.08 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 127 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d7f705a-41ec-4bbd-9ed6-d25fd68282e6)
-    (property "Reference" "R1207" (at 116.84 131.445 0)
+    (property "Reference" "R83" (at 129.54 169.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 116.84 133.985 0)
+    (property "Value" "10k" (at 129.54 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 112.522 132.08 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 125.222 170.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 114.3 132.08 0)
+    (property "Datasheet" "~" (at 127 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 63fb4d97-2974-44cd-bd46-25c0f8bd96cc))
@@ -3173,7 +3242,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1207") (unit 1)
+          (reference "R83") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3187,10 +3256,10 @@
   (symbol (lib_id "Device:C") (at 184.15 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ff2ead8-7f89-43a0-acd5-ec2c112717ae)
-    (property "Reference" "C1211" (at 187.96 52.0699 0)
+    (property "Reference" "C71" (at 187.96 52.0699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 187.96 54.6099 0)
+    (property "Value" "100n" (at 187.96 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 185.1152 57.15 0)
@@ -3204,7 +3273,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1211") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3215,26 +3284,26 @@
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 208.28 111.76 0) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 208.28 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 529ab71f-b23e-46e6-af43-992d2973fca7)
-    (property "Reference" "#FLG01204" (at 208.28 109.855 0)
+    (property "Reference" "#FLG07" (at 208.28 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (at 208.28 107.95 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "PWR_FLAG" (at 210.82 121.285 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 208.28 111.76 0)
+    (property "Footprint" "" (at 208.28 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 208.28 111.76 0)
+    (property "Datasheet" "~" (at 208.28 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7c1ba12f-7869-4235-937f-3ca603f71c1c))
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01204") (unit 1)
+          (reference "#FLG07") (unit 1)
         )
       )
     )
@@ -3262,7 +3331,7 @@
           (reference "#PWR0523") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01224") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3273,22 +3342,22 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 63.5 146.05 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 55.88 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5498aa03-3965-4a1c-bb8e-e6b97a030697)
-    (property "Reference" "C1213" (at 67.31 144.7799 0)
+    (property "Reference" "C73" (at 59.69 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22µ" (at 67.31 147.3199 0)
+    (property "Value" "22µ" (at 59.69 147.3199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 64.4652 149.86 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 56.8452 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 63.5 146.05 0)
+    (property "Datasheet" "~" (at 55.88 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Voltage" "16V" (at 67.31 149.86 0)
+    (property "Voltage" "16V" (at 59.69 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid cb4df2fc-03a0-4742-b412-7bc4dbf58d53))
@@ -3296,7 +3365,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1213") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3310,7 +3379,7 @@
   (symbol (lib_id "Device:C") (at 238.76 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5889d706-2c2e-43d8-b61c-06d591f966db)
-    (property "Reference" "C1217" (at 242.57 144.7799 0)
+    (property "Reference" "C77" (at 242.57 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µ" (at 242.57 147.3199 0)
@@ -3330,7 +3399,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1217") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3341,10 +3410,50 @@
     )
   )
 
+  (symbol (lib_id "Diode:BAT60A") (at 88.9 154.94 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5cfda4bb-4ffa-4dbd-b23b-7cf062626e00)
+    (property "Reference" "D33" (at 86.36 153.9875 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BAT60A" (at 86.36 156.5275 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 93.345 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9" (at 88.9 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 31cccaaf-eb6b-4955-8e31-4d7d0a443f7c))
+    (pin "2" (uuid cf8d4e5a-f9c5-4aeb-8919-3b01ddf05caf))
+    (instances
+      (project "Sensor_Board"
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/8460c5f0-f567-411d-b3a7-76d8207879f4"
+          (reference "D33") (unit 1)
+        )
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921"
+          (reference "D21") (unit 1)
+        )
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
+          (reference "D60") (unit 1)
+        )
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/876d5a8c-bab4-49d7-9251-d26c1164acdf"
+          (reference "D39") (unit 1)
+        )
+      )
+      (project "FT22_VCU_Konzept"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3c48a9d0-891a-4016-826f-62373ede344c"
+          (reference "D33") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:PWR_FLAG") (at 53.34 19.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5da5d221-970b-4635-8dc8-3d3e0ec076b3)
-    (property "Reference" "#FLG01201" (at 51.435 19.05 0)
+    (property "Reference" "#FLG02" (at 51.435 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 49.53 19.685 90)
@@ -3360,32 +3469,32 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01201") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 50.8 154.94 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 43.18 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e2da3ae-5c67-489b-8acd-af75a2dae1bc)
-    (property "Reference" "#PWR01218" (at 50.8 161.29 0)
+    (property "Reference" "#PWR0178" (at 43.18 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 50.8 160.02 0)
+    (property "Value" "GND" (at 43.18 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 50.8 154.94 0)
+    (property "Footprint" "" (at 43.18 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 50.8 154.94 0)
+    (property "Datasheet" "" (at 43.18 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid df29a322-e94b-41ab-936b-506367677141))
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01218") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3396,19 +3505,19 @@
     )
   )
 
-  (symbol (lib_id "Regulator_Linear:LD1117S50TR_SOT223") (at 50.8 139.7 0) (unit 1)
+  (symbol (lib_id "Regulator_Linear:LD1117S50TR_SOT223") (at 43.18 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6428bd43-ec6d-41ad-8d5f-e4f7a59e88af)
-    (property "Reference" "U1202" (at 50.8 133.35 0)
+    (property "Reference" "U13" (at 43.18 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LD1117S50TR_SOT223" (at 50.8 135.89 0)
+    (property "Value" "LD1117S50TR_SOT223" (at 43.18 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 50.8 134.62 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 43.18 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" (at 53.34 146.05 0)
+    (property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" (at 45.72 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8758e776-eeb0-4a67-ae61-102bcb3d7d7a))
@@ -3417,7 +3526,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "U1202") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3428,19 +3537,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 38.1 146.05 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 30.48 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65c58ea0-5fef-4e94-be0d-f9d59ec963b1)
-    (property "Reference" "C1212" (at 41.91 145.415 0)
+    (property "Reference" "C72" (at 34.29 145.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 41.91 147.955 0)
+    (property "Value" "100n" (at 34.29 147.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 39.0652 149.86 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 31.4452 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 38.1 146.05 0)
+    (property "Datasheet" "~" (at 30.48 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9ab98516-91ed-433f-9aa7-a6dcc38fd658))
@@ -3448,7 +3557,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1212") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3462,7 +3571,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 76.2 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 709c80b2-4793-4d2c-a7dc-0c5099fa7034)
-    (property "Reference" "#FLG01203" (at 76.2 59.055 0)
+    (property "Reference" "#FLG06" (at 76.2 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 76.2 57.15 0)
@@ -3478,7 +3587,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01203") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
       )
     )
@@ -3487,7 +3596,7 @@
   (symbol (lib_id "power:GND") (at 175.26 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 732f9b17-a056-41a9-a1f8-79a5dc7183ca)
-    (property "Reference" "#PWR01212" (at 175.26 69.85 0)
+    (property "Reference" "#PWR0162" (at 175.26 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 68.58 0)
@@ -3503,7 +3612,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01212") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3517,7 +3626,7 @@
   (symbol (lib_id "Device:R") (at 198.12 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73d911f8-05ac-46df-a28d-31634f7bcb33)
-    (property "Reference" "R1202" (at 198.12 40.64 90)
+    (property "Reference" "R73" (at 198.12 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3" (at 198.12 45.72 90)
@@ -3534,7 +3643,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1202") (unit 1)
+          (reference "R73") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3569,7 +3678,7 @@
           (reference "D24") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1202") (unit 1)
+          (reference "D42") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3583,7 +3692,7 @@
   (symbol (lib_id "power:GND") (at 76.2 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 774128d4-2259-456a-9f9a-873513115199)
-    (property "Reference" "#PWR01216" (at 76.2 95.25 0)
+    (property "Reference" "#PWR0171" (at 76.2 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 93.98 0)
@@ -3599,7 +3708,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01216") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3613,7 +3722,7 @@
   (symbol (lib_id "power:GND") (at 254 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79a5db6b-b192-409f-9247-6b3ccc461921)
-    (property "Reference" "#PWR01202" (at 254 52.07 0)
+    (property "Reference" "#PWR0152" (at 254 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254 50.8 0)
@@ -3629,7 +3738,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01202") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3643,7 +3752,7 @@
   (symbol (lib_id "power:GND") (at 184.15 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c6077da-8947-44d0-b923-58e394248c5b)
-    (property "Reference" "#PWR01213" (at 184.15 69.85 0)
+    (property "Reference" "#PWR0163" (at 184.15 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 68.58 0)
@@ -3659,7 +3768,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01213") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3673,7 +3782,7 @@
   (symbol (lib_id "Device:C") (at 152.4 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d222eb7-ccd8-442c-a765-abd246ec61ea)
-    (property "Reference" "C1214" (at 156.21 145.415 0)
+    (property "Reference" "C74" (at 156.21 145.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 147.955 0)
@@ -3690,7 +3799,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1214") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3704,7 +3813,7 @@
   (symbol (lib_id "VCU:LM53603") (at 157.48 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d7c3a2f-cb19-4835-af31-264f7b937ba2)
-    (property "Reference" "U1201" (at 157.48 20.32 0)
+    (property "Reference" "U12" (at 157.48 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM53603" (at 157.48 22.86 0)
@@ -3736,7 +3845,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "U1201") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3750,7 +3859,7 @@
   (symbol (lib_id "power:GND") (at 90.17 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82406faf-77fb-48ec-a8c9-95db55efb567)
-    (property "Reference" "#PWR01205" (at 90.17 53.34 0)
+    (property "Reference" "#PWR0155" (at 90.17 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 52.07 0)
@@ -3766,7 +3875,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01205") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3780,7 +3889,7 @@
   (symbol (lib_id "Device:Fuse") (at 69.85 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83236fe9-1c78-4d92-921d-911efe08e6df)
-    (property "Reference" "F1202" (at 69.85 58.2356 90)
+    (property "Reference" "F2" (at 69.85 58.2356 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.5A" (at 69.85 60.7756 90)
@@ -3797,7 +3906,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "F1202") (unit 1)
+          (reference "F2") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3830,7 +3939,7 @@
           (reference "#PWR0520") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01221") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3844,7 +3953,7 @@
   (symbol (lib_id "power:GND") (at 241.3 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8524d747-5f54-4889-b96c-ef9e9b56649e)
-    (property "Reference" "#PWR01201" (at 241.3 52.07 0)
+    (property "Reference" "#PWR0151" (at 241.3 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 50.8 0)
@@ -3860,7 +3969,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01201") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3874,7 +3983,7 @@
   (symbol (lib_id "power:GND") (at 114.3 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87411eb9-ad54-43c2-b257-bcb429c2175e)
-    (property "Reference" "#PWR01207" (at 114.3 53.34 0)
+    (property "Reference" "#PWR0157" (at 114.3 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 52.07 0)
@@ -3890,7 +3999,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01207") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3901,10 +4010,43 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 88.9 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8ab876cf-cbd5-4af9-aaf8-3f98bbd07efa)
+    (property "Reference" "#PWR0104" (at 88.9 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 88.9 185.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 88.9 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 88.9 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f783c7d-a30b-4293-aa58-6aa02374142b))
+    (instances
+      (project "Sensor_Board"
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/876d5a8c-bab4-49d7-9251-d26c1164acdf"
+          (reference "#PWR0104") (unit 1)
+        )
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
+          (reference "#PWR0204") (unit 1)
+        )
+      )
+      (project "FT22_VCU_Konzept"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/08869424-d161-4c12-9377-616e1487b74d"
+          (reference "#PWR0169") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 101.6 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c1e25bc-bd1e-406e-a008-732d1aac5712)
-    (property "Reference" "#PWR01215" (at 101.6 92.71 0)
+    (property "Reference" "#PWR0170" (at 101.6 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 91.44 0)
@@ -3920,7 +4062,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01215") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3934,7 +4076,7 @@
   (symbol (lib_id "Device:R") (at 76.2 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fda2456-6ce9-4546-ab30-e60cb2fa325b)
-    (property "Reference" "R1206" (at 78.74 81.915 0)
+    (property "Reference" "R82" (at 78.74 81.915 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 78.74 84.455 0)
@@ -3951,7 +4093,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1206") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -3965,7 +4107,7 @@
   (symbol (lib_id "Device:C") (at 254 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 923460e6-9edf-4f1c-b97f-c073e8b1342b)
-    (property "Reference" "C1204" (at 257.81 35.5599 0)
+    (property "Reference" "C64" (at 257.81 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µ" (at 257.81 38.0999 0)
@@ -3985,7 +4127,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1204") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4019,12 +4161,46 @@
           (reference "R525") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1210") (unit 1)
+          (reference "R79") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39fda93f-20d1-454a-b043-914b0964bf2d"
           (reference "R42") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 74.93 172.72 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 977fe752-ec06-4754-aaab-307c60b2f2b7)
+    (property "Reference" "R59" (at 74.93 166.37 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 74.93 168.91 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 74.93 174.498 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.93 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c75a774d-6b8c-42bb-98c6-3cdb65e3ed96))
+    (pin "2" (uuid 8742c978-383f-46e5-8912-c96d7b4cf36a))
+    (instances
+      (project "Sensor_Board"
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/876d5a8c-bab4-49d7-9251-d26c1164acdf"
+          (reference "R59") (unit 1)
+        )
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
+          (reference "R134") (unit 1)
+        )
+      )
+      (project "FT22_VCU_Konzept"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/08869424-d161-4c12-9377-616e1487b74d"
+          (reference "R76") (unit 1)
         )
       )
     )
@@ -4053,7 +4229,7 @@
           (reference "R524") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1209") (unit 1)
+          (reference "R78") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4087,7 +4263,7 @@
           (reference "D508") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1207") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
@@ -4096,7 +4272,7 @@
   (symbol (lib_id "power:GND") (at 165.1 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bf94a4f-1fad-4bd1-9c1a-a72f9a6a4a30)
-    (property "Reference" "#PWR01219" (at 165.1 161.29 0)
+    (property "Reference" "#PWR0179" (at 165.1 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 160.02 0)
@@ -4112,7 +4288,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01219") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4126,7 +4302,7 @@
   (symbol (lib_id "Device:C") (at 127 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c65b2f9-9847-493d-bdda-9b8c1fdaf7ba)
-    (property "Reference" "C1210" (at 130.81 52.705 0)
+    (property "Reference" "C70" (at 130.81 52.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3µ" (at 130.81 55.245 0)
@@ -4143,7 +4319,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1210") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4157,7 +4333,7 @@
   (symbol (lib_id "power:GND") (at 139.7 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dedd333-c520-4b82-a5e4-40398dd729e5)
-    (property "Reference" "#PWR01211" (at 139.7 69.85 0)
+    (property "Reference" "#PWR0161" (at 139.7 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 68.58 0)
@@ -4173,7 +4349,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01211") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4206,7 +4382,7 @@
           (reference "#PWR0522") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01223") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4217,10 +4393,43 @@
     )
   )
 
+  (symbol (lib_id "Relay:G5V-1") (at 106.68 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a1e75483-8a69-4627-9a9a-dc32c8110720)
+    (property "Reference" "K1" (at 118.11 154.305 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "G5V-1" (at 118.11 156.845 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron_G5V-1" (at 135.382 155.702 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf" (at 106.68 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b68b2c88-f05f-4a4f-85f0-92f31a1b0bda))
+    (pin "10" (uuid d6ed0173-22f5-4497-8a78-821cfd16baa2))
+    (pin "2" (uuid 0b233f92-9fdd-47b8-9052-00b26d5e4eca))
+    (pin "5" (uuid 57242ae0-71d0-4e65-98b4-f7bdd8fbcb2b))
+    (pin "6" (uuid bda8a6a4-d524-4ae5-a58f-b7c5a2c3e847))
+    (pin "9" (uuid c941ee47-719c-4a09-ade6-abfc4a7a9376))
+    (instances
+      (project "Sensor_Board"
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/876d5a8c-bab4-49d7-9251-d26c1164acdf"
+          (reference "K1") (unit 1)
+        )
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
+          (reference "K3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 213.36 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2ee441b-81ff-4d11-a5f0-229f4a8c8c7c)
-    (property "Reference" "C1216" (at 217.17 145.415 0)
+    (property "Reference" "C76" (at 217.17 145.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 217.17 147.955 0)
@@ -4237,7 +4446,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1216") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4251,7 +4460,7 @@
   (symbol (lib_id "power:GND") (at 101.6 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a36c4175-89b9-41bf-ba25-76b7a935b07d)
-    (property "Reference" "#PWR01206" (at 101.6 53.34 0)
+    (property "Reference" "#PWR0156" (at 101.6 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 52.07 0)
@@ -4267,7 +4476,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01206") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4281,7 +4490,7 @@
   (symbol (lib_id "Device:L") (at 198.12 27.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4dcb79c-cc8d-4f19-822b-7a140c31c8d1)
-    (property "Reference" "L1201" (at 198.12 22.86 90)
+    (property "Reference" "L1" (at 198.12 22.86 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2µ" (at 198.12 25.4 90)
@@ -4298,7 +4507,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "L1201") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4331,7 +4540,7 @@
           (reference "#PWR0520") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01230") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4365,7 +4574,7 @@
           (reference "R524") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1213") (unit 1)
+          (reference "R77") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4379,7 +4588,7 @@
   (symbol (lib_id "power:GND") (at 38.1 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a68853c1-8bee-4d9f-8d07-66ddb5cf03b6)
-    (property "Reference" "#PWR01209" (at 38.1 59.69 0)
+    (property "Reference" "#PWR0159" (at 38.1 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 58.42 0)
@@ -4395,7 +4604,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01209") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4409,7 +4618,7 @@
   (symbol (lib_id "Device:Fuse") (at 247.65 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac4837f3-468f-402f-b685-441943b45d69)
-    (property "Reference" "F1206" (at 247.65 133.35 90)
+    (property "Reference" "F6" (at 247.65 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.5A" (at 247.65 135.89 90)
@@ -4426,7 +4635,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "F1206") (unit 1)
+          (reference "F6") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4440,7 +4649,7 @@
   (symbol (lib_id "Device:Fuse") (at 187.96 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae622806-0e27-4442-a85f-8378e9d8ed66)
-    (property "Reference" "F1205" (at 187.96 134.62 90)
+    (property "Reference" "F5" (at 187.96 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.5A" (at 187.96 137.16 90)
@@ -4457,7 +4666,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "F1205") (unit 1)
+          (reference "F5") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4494,7 +4703,7 @@
           (reference "D21") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1205") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4505,19 +4714,19 @@
     )
   )
 
-  (symbol (lib_id "Device:Fuse") (at 72.39 139.7 90) (unit 1)
+  (symbol (lib_id "Device:Fuse") (at 64.77 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b50a49ed-857a-4a96-ad6b-243249eaff0c)
-    (property "Reference" "F1204" (at 72.39 133.35 90)
+    (property "Reference" "F4" (at 64.77 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.5A" (at 72.39 135.89 90)
+    (property "Value" "0.5A" (at 64.77 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 72.39 141.478 90)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 64.77 141.478 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 72.39 139.7 0)
+    (property "Datasheet" "~" (at 64.77 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 41d3154e-7f7b-4bff-bdd8-4084509c04c7))
@@ -4525,7 +4734,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "F1204") (unit 1)
+          (reference "F4") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4539,7 +4748,7 @@
   (symbol (lib_id "Device:Q_PMOS_GDS") (at 38.1 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b68e3037-74ae-4bc1-8d2b-6286d8fae36d)
-    (property "Reference" "Q1201" (at 38.1 21.59 90)
+    (property "Reference" "Q6" (at 38.1 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "IPD50P04P413ATMA2" (at 38.1 24.13 90)
@@ -4557,7 +4766,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "Q1201") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -4566,7 +4775,7 @@
   (symbol (lib_id "power:+3.3V") (at 101.6 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7ac3a2f-c301-4814-b797-81114c123526)
-    (property "Reference" "#PWR01214" (at 101.6 69.85 0)
+    (property "Reference" "#PWR0164" (at 101.6 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 101.6 62.23 0)
@@ -4582,7 +4791,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01214") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -4610,7 +4819,7 @@
           (reference "#PWR0521") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01222") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4644,7 +4853,7 @@
           (reference "D508") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1208") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -4672,25 +4881,25 @@
           (reference "#PWR0102") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01225") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Diode:BAT60A") (at 53.34 114.3 180) (unit 1)
+  (symbol (lib_id "Diode:BAT60A") (at 49.53 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c41a36ba-ed32-465f-8fda-43247bbc190f)
-    (property "Reference" "D33" (at 53.6575 109.22 0)
+    (property "Reference" "D33" (at 49.8475 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "BAT60A" (at 53.6575 111.76 0)
+    (property "Value" "BAT60A" (at 49.8475 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-323" (at 53.34 109.855 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 49.53 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9" (at 53.34 114.3 0)
+    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9" (at 49.53 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 94990b6e-7201-4593-bd5a-8ca5c90ca95d))
@@ -4704,7 +4913,7 @@
           (reference "D21") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1203") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4718,7 +4927,7 @@
   (symbol (lib_id "power:GND") (at 212.09 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c46921da-8215-417f-b0f1-ea2b343a8203)
-    (property "Reference" "#PWR01208" (at 212.09 55.88 0)
+    (property "Reference" "#PWR0158" (at 212.09 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 54.61 0)
@@ -4734,7 +4943,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01208") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4748,7 +4957,7 @@
   (symbol (lib_id "Device:C") (at 266.7 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7920f87-6e2f-4170-a17e-bc92d67ecc5a)
-    (property "Reference" "C1205" (at 270.51 35.5599 0)
+    (property "Reference" "C65" (at 270.51 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µ" (at 270.51 38.0999 0)
@@ -4768,12 +4977,47 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1205") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/008ff5ae-e321-4229-9e00-7c1739475b28"
           (reference "C31") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "FaSTTUBe_PnP:BC817") (at 86.36 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ce3e72ca-56e9-4121-9c07-d1ff86120615)
+    (property "Reference" "Q3" (at 91.44 171.4499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BC817" (at 91.44 173.9899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 91.44 174.625 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" (at 86.36 172.72 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 6a9a9100-b9d2-4a78-b076-7ac0f75b4028))
+    (pin "2" (uuid 74fcbf6b-c6f1-437a-9c0b-1b84dbaa2cca))
+    (pin "3" (uuid 12c90850-a678-4770-9548-1a1268ca4a8b))
+    (instances
+      (project "Sensor_Board"
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/876d5a8c-bab4-49d7-9251-d26c1164acdf"
+          (reference "Q3") (unit 1)
+        )
+        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
+          (reference "Q32") (unit 1)
+        )
+      )
+      (project "FT22_VCU_Konzept"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/08869424-d161-4c12-9377-616e1487b74d"
+          (reference "Q23") (unit 1)
         )
       )
     )
@@ -4802,7 +5046,7 @@
           (reference "D508") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "D1206") (unit 1)
+          (reference "D44") (unit 1)
         )
       )
     )
@@ -4811,7 +5055,7 @@
   (symbol (lib_id "power:GND") (at 127 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbc7fba0-97ee-43bb-804a-65f13a43b0bb)
-    (property "Reference" "#PWR01210" (at 127 69.85 0)
+    (property "Reference" "#PWR0160" (at 127 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 68.58 0)
@@ -4827,7 +5071,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01210") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4841,7 +5085,7 @@
   (symbol (lib_id "power:GND") (at 77.47 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df5c9f7c-b8d9-4be3-a55c-eff6d5750e0c)
-    (property "Reference" "#PWR01204" (at 77.47 53.34 0)
+    (property "Reference" "#PWR0154" (at 77.47 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 77.47 52.07 0)
@@ -4857,7 +5101,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01204") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4871,10 +5115,10 @@
   (symbol (lib_id "Device:C") (at 77.47 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3a0e8cd-8c6f-48ad-94c1-f7732ca9bcb5)
-    (property "Reference" "C1206" (at 81.28 36.8299 0)
+    (property "Reference" "C66" (at 81.28 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10µF" (at 81.28 39.3699 0)
+    (property "Value" "10µ" (at 81.28 39.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 78.4352 41.91 0)
@@ -4891,7 +5135,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1206") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4905,10 +5149,10 @@
   (symbol (lib_id "Device:C") (at 114.3 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e48e25f7-e5b3-483c-8127-88e29b70ee91)
-    (property "Reference" "C1209" (at 118.11 36.8299 0)
+    (property "Reference" "C69" (at 118.11 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 118.11 39.3699 0)
+    (property "Value" "100n" (at 118.11 39.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 115.2652 41.91 0)
@@ -4922,7 +5166,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1209") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4956,7 +5200,7 @@
           (reference "R526") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1211") (unit 1)
+          (reference "R80") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -4967,26 +5211,26 @@
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 114.3 124.46 0) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 127 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e766792b-8391-49b3-8c38-f738f7b979c4)
-    (property "Reference" "#FLG01205" (at 114.3 122.555 0)
+    (property "Reference" "#FLG08" (at 127 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (at 114.3 120.65 0)
+    (property "Value" "PWR_FLAG" (at 127 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 114.3 124.46 0)
+    (property "Footprint" "" (at 127 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 114.3 124.46 0)
+    (property "Datasheet" "~" (at 127 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 42172d8b-84fd-469e-a18f-81e3fe6c391d))
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01205") (unit 1)
+          (reference "#FLG08") (unit 1)
         )
       )
     )
@@ -5014,25 +5258,25 @@
           (reference "#PWR0105") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#PWR01228") (unit 1)
+          (reference "#PWR0169") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 114.3 144.78 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 127 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0b5f776-3e23-4b60-bc7a-125d828f5fd3)
-    (property "Reference" "R1208" (at 116.84 144.145 0)
+    (property "Reference" "R84" (at 129.54 182.245 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 116.84 146.685 0)
+    (property "Value" "10k" (at 129.54 184.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 112.522 144.78 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 125.222 182.88 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 114.3 144.78 0)
+    (property "Datasheet" "~" (at 127 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d7cbd497-cc14-4464-be9a-8374b7323734))
@@ -5040,7 +5284,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "R1208") (unit 1)
+          (reference "R84") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -5051,36 +5295,10 @@
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 87.63 149.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f0e2afd4-dfd3-427d-b0e1-b82989071180)
-    (property "Reference" "JP1202" (at 87.63 144.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "5VA_Diode" (at 87.63 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 87.63 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 87.63 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9bf6a6c3-70fa-481a-801d-8828462d9e9a))
-    (pin "2" (uuid 7e96eded-a82a-44cc-b187-e310f6e0fa94))
-    (instances
-      (project "Sensor_Board"
-        (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "JP1202") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 181.61 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f67729dc-8035-4b3e-b781-34b7e45a622c)
-    (property "Reference" "C1201" (at 181.61 29.21 90)
+    (property "Reference" "C61" (at 181.61 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n" (at 181.61 36.83 90)
@@ -5097,7 +5315,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "C1201") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -5111,7 +5329,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 133.35 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe13ee60-2aef-42ee-b724-670c62554edb)
-    (property "Reference" "#FLG01207" (at 133.35 38.735 0)
+    (property "Reference" "#FLG05" (at 133.35 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 133.35 36.83 0)
@@ -5127,7 +5345,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/76b65cb7-064b-4e1a-ab08-2030a37ece9c"
-          (reference "#FLG01207") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
     )

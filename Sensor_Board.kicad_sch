@@ -512,7 +512,7 @@
   (symbol (lib_id "power:+3.3V") (at 127 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12203e6c-cffd-41c8-9ff5-332f65509899)
-    (property "Reference" "#PWR0105" (at 127 26.67 0)
+    (property "Reference" "#PWR05" (at 127 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 127 19.05 0)
@@ -528,7 +528,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -537,7 +537,7 @@
   (symbol (lib_id "power:+5VA") (at 114.3 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46ae80db-f508-402a-93f1-5837dd56dae2)
-    (property "Reference" "#PWR0103" (at 114.3 26.67 0)
+    (property "Reference" "#PWR03" (at 114.3 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VA" (at 114.3 19.05 0)
@@ -553,7 +553,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -562,7 +562,7 @@
   (symbol (lib_id "power:Vdrive") (at 107.95 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f248dbc-989b-4ce6-8310-95a5bdca1b2c)
-    (property "Reference" "#PWR0102" (at 102.87 26.67 0)
+    (property "Reference" "#PWR02" (at 102.87 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 107.95 19.05 0)
@@ -578,7 +578,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -587,7 +587,7 @@
   (symbol (lib_id "power:+BATT") (at 101.6 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 518b0338-5421-4668-9740-d9df97b99afc)
-    (property "Reference" "#PWR0101" (at 101.6 26.67 0)
+    (property "Reference" "#PWR01" (at 101.6 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 101.6 19.05 0)
@@ -603,7 +603,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -612,7 +612,7 @@
   (symbol (lib_id "power:+5V") (at 120.65 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c43f4dbe-275c-4042-a679-8e49fe0ed438)
-    (property "Reference" "#PWR0104" (at 120.65 26.67 0)
+    (property "Reference" "#PWR04" (at 120.65 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 120.65 19.05 0)
@@ -628,7 +628,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )

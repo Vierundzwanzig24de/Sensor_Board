@@ -2319,7 +2319,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12951bfc-10e3-42f1-b697-5ecfdd58a9c4)
-    (property "Reference" "JP1106" (at 86.36 126.365 90)
+    (property "Reference" "JP9" (at 86.36 126.365 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 128.905 90)
@@ -2337,7 +2337,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1106") (unit 1)
+          (reference "JP9") (unit 1)
         )
       )
     )
@@ -2346,7 +2346,7 @@
   (symbol (lib_id "power:Vdrive") (at 147.32 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b78c5d0-4ce8-4665-bd0d-6d552daa71c7)
-    (property "Reference" "#PWR01103" (at 143.51 83.82 0)
+    (property "Reference" "#PWR0148" (at 143.51 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 151.13 89.535 90)
@@ -2362,7 +2362,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "#PWR01103") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -2371,7 +2371,7 @@
   (symbol (lib_id "power:GND") (at 198.12 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f158996-b170-434f-8bc3-c239e5bea648)
-    (property "Reference" "#PWR01102" (at 198.12 87.63 0)
+    (property "Reference" "#PWR0147" (at 198.12 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 86.36 0)
@@ -2387,7 +2387,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "#PWR01102") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2401,7 +2401,7 @@
   (symbol (lib_id "Connector:DE9_Receptacle_MountingHoles") (at 198.12 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 500228fe-027c-47a3-b00e-20308e94fb16)
-    (property "Reference" "J1101" (at 203.2 60.325 0)
+    (property "Reference" "J3" (at 203.2 60.325 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VN_1611_Interface" (at 203.2 62.865 0)
@@ -2426,7 +2426,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "J1101") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2435,7 +2435,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 195.58 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 766f38fa-334e-4eee-bf5d-2ea56016ba38)
-    (property "Reference" "J1103" (at 196.85 100.965 0)
+    (property "Reference" "J5" (at 196.85 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Banana_Jack" (at 196.85 103.505 0)
@@ -2451,7 +2451,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "J1103") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2460,7 +2460,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 783c97e9-866b-48ff-9c29-2fc08c947c4c)
-    (property "Reference" "JP1101" (at 86.36 24.765 90)
+    (property "Reference" "JP4" (at 86.36 24.765 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 27.305 90)
@@ -2478,7 +2478,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1101") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -2487,7 +2487,7 @@
   (symbol (lib_id "power:GND") (at 187.96 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 840eb7bb-d5a7-4ade-8a26-edf9715540c4)
-    (property "Reference" "#PWR01104" (at 187.96 116.84 0)
+    (property "Reference" "#PWR0149" (at 187.96 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 115.57 0)
@@ -2503,7 +2503,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "#PWR01104") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2517,7 +2517,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84db4f45-d4f6-4717-980d-74a51263f0f7)
-    (property "Reference" "JP1105" (at 86.36 106.045 90)
+    (property "Reference" "JP8" (at 86.36 106.045 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 108.585 90)
@@ -2535,7 +2535,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1105") (unit 1)
+          (reference "JP8") (unit 1)
         )
       )
     )
@@ -2544,7 +2544,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 963b210b-b347-4518-83c3-9ea3351a8c2a)
-    (property "Reference" "JP1107" (at 86.36 146.685 90)
+    (property "Reference" "JP10" (at 86.36 146.685 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 149.225 90)
@@ -2562,7 +2562,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1107") (unit 1)
+          (reference "JP10") (unit 1)
         )
       )
     )
@@ -2571,7 +2571,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 195.58 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1b4496c-97b9-4efb-a44a-9aedeb6f0630)
-    (property "Reference" "J1104" (at 196.85 107.315 0)
+    (property "Reference" "J6" (at 196.85 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Banana_Jack" (at 196.85 109.855 0)
@@ -2587,7 +2587,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "J1104") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -2596,7 +2596,7 @@
   (symbol (lib_id "power:GND") (at 129.54 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a485e91b-d76f-4416-a61b-97ce37bf8272)
-    (property "Reference" "#PWR01106" (at 129.54 148.59 0)
+    (property "Reference" "#PWR0150" (at 129.54 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 147.32 0)
@@ -2612,7 +2612,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "#PWR01106") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2626,7 +2626,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3da29b7-ee9c-4fd9-9705-37ea7becf245)
-    (property "Reference" "JP1104" (at 86.36 85.725 90)
+    (property "Reference" "JP7" (at 86.36 85.725 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 88.265 90)
@@ -2644,7 +2644,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1104") (unit 1)
+          (reference "JP7") (unit 1)
         )
       )
     )
@@ -2653,7 +2653,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b491e44c-8201-4078-9178-45d3e58cbc34)
-    (property "Reference" "JP1103" (at 86.36 65.405 90)
+    (property "Reference" "JP6" (at 86.36 65.405 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 67.945 90)
@@ -2671,7 +2671,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1103") (unit 1)
+          (reference "JP6") (unit 1)
         )
       )
     )
@@ -2680,7 +2680,7 @@
   (symbol (lib_id "power:+5VA") (at 147.32 78.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdf578d9-ee94-4513-8e6f-95285877dd4f)
-    (property "Reference" "#PWR01105" (at 143.51 78.74 0)
+    (property "Reference" "#PWR0146" (at 143.51 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VA" (at 151.13 79.375 90)
@@ -2696,7 +2696,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "#PWR01105") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -2705,7 +2705,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfc7923b-cb9d-470b-ac11-86693226aa57)
-    (property "Reference" "JP1102" (at 86.36 45.085 90)
+    (property "Reference" "JP5" (at 86.36 45.085 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 47.625 90)
@@ -2723,7 +2723,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1102") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -2751,7 +2751,7 @@
           (reference "#PWR0105") (unit 1)
         )
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "#PWR01101") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2765,7 +2765,7 @@
   (symbol (lib_id "FaSTTUBe_connectors:AMPSEAL_35_90deg") (at 121.92 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd793f21-11d9-404b-9309-a8f407885939)
-    (property "Reference" "J1102" (at 121.92 44.45 0)
+    (property "Reference" "J4" (at 121.92 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AMPSEAL_35" (at 121.92 46.99 0)
@@ -2815,7 +2815,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "J1102") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "FT22_VCU_Konzept"
@@ -2829,7 +2829,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 88.9 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe030496-fad3-4d67-ab65-4937c5413d9b)
-    (property "Reference" "JP1108" (at 86.36 167.005 90)
+    (property "Reference" "JP11" (at 86.36 167.005 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 86.36 169.545 90)
@@ -2847,7 +2847,7 @@
     (instances
       (project "Sensor_Board"
         (path "/e2a0eb17-0eae-4cdd-befd-118f8728b921/276bb215-b19a-4afa-b073-6f1d222ea979"
-          (reference "JP1108") (unit 1)
+          (reference "JP11") (unit 1)
         )
       )
     )
