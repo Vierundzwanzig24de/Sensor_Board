@@ -1207,6 +1207,11 @@
     (uuid f9af1cda-cbde-4966-af70-881629157003)
   )
 
+  (text "wenn IOs verbunden: kein Pullup notwendig\nbzw. bereits durch output Stufe verfügbar"
+    (at 231.14 71.12 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 282a14b4-8dae-473a-ae8e-cce208ef91a9)
+  )
   (text "Configurable Pull-up resistors\nIf Qn is pulled to GND the\nin-series diode blocks reverse voltages\nand the input becomes \"High-Z\""
     (at 228.6 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

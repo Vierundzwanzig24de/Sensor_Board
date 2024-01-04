@@ -40,10 +40,9 @@
 - USB Stecker weiter herausstehen lassen
 - kleinere Gehäuse für ICs nutzen
 - Level shifter für 74HC595 nicht notwendig
-- Individuelle Sicherungen für IO Bänke
 - 3.3V Outputs??
 - Umschalten Ausgangsspannung per Software
 - Umschalten USB Versorgung per Software?? (Falls keine Eingangsspannung messbar)
 - CAN schaltbare Terminierung
 - Vierundzwanzig24 Logo!!!
-- AMPSEAL um 0.8mm nach innen verschieben
+- AMPSEAL um 0.8mm (0.7mm?) nach innen verschieben
